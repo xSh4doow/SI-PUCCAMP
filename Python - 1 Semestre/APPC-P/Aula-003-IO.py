@@ -182,7 +182,7 @@ def main():
                 'Esse projeto foi feito por Pedro Rocha\nSe deseja ver mais, acesse: https://github.com/xSh4doow' + '\n')
             continuar()
         elif sel == 7:
-            print('Fala Prof! Gostaria de te avisar que não fiz o uso de Try/Excepts no projeto. Isso se dá pelo fato que suponho que o Senhor irá utilizar o sistema de forma correta. Desde já agradeço a compreensão e o uso devido dos tipos.')
+            print('Fala Prof! Gostaria de te avisar que não fiz o uso de Try/Excepts no projeto, isso se dá pelo fato que suponho que o Senhor irá utilizar o sistema de forma correta. Desde já agradeço a compreensão e o uso devido dos tipos.')
         else:
             print('Obrigado por usar meu sistema!')
             quit()
