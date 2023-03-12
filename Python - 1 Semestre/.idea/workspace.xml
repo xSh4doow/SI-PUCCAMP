@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="13fd3d90-07b7-4501-826b-e10e4b65a740" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/APPC-P/Aula-003-IO.py" beforeDir="false" afterPath="$PROJECT_DIR$/APPC-P/Aula-003-IO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APPC-T/exercicios_sequencia.py" beforeDir="false" afterPath="$PROJECT_DIR$/APPC-T/exercicios_sequencia.py" afterDir="false" />
-    </list>
+    <list default="true" id="13fd3d90-07b7-4501-826b-e10e4b65a740" name="Changes" comment="Terceiro Commit - Adicionando Try/Except's nos arquivos: 003-IO e exs-sequência" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +65,18 @@
       <option name="presentableId" value="Default" />
       <updated>1677957582951</updated>
     </task>
+    <task id="LOCAL-00001" summary="Terceiro Commit - Adicionando Try/Except's nos arquivos: 003-IO e exs-sequência">
+      <created>1678421398584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678421398584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Terceiro Commit - Adicionando Try/Except's nos arquivos: 003-IO e exs-sequência" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terceiro Commit - Adicionando Try/Except's nos arquivos: 003-IO e exs-sequência" />
   </component>
 </project>
