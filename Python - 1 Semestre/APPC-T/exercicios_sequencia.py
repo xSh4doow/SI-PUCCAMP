@@ -1,6 +1,3 @@
-import time as t
-
-
 def celsius_to(temp):
     while True:
         try:
@@ -73,7 +70,7 @@ def rank_to(temp):
         else:
             if temp == 'cel':
                 celsius = (graus - 491.67) / 9 / 5
-                print(graus, "ºRK equivalem a ", round(celsius, 2), "ºC", sep="")
+                print(graus, "ºR equivalem a ", round(celsius, 2), "ºC", sep="")
                 break
             elif temp == 'fah':
                 fahrenheit = graus - 459.67
