@@ -137,10 +137,6 @@ def to_cel():
                 print('Escala Incorreta')
 
 
-# Todos Graus
-a47.main
-
-
 # IPTU
 def iptu():
     while True:
@@ -209,21 +205,26 @@ def imc():
 def ord_cresc():
     while True:
         try:
-            numeros = list(input('QUAIS NÚMEROS VOCÊ DESEJA SABER SE ESTÁ EM ORDEM CRESCENTE? (SEPARADOS POR VÍRGULA)\n').split(','))
+            numeros = list(input('QUAIS NÚMEROS VOCÊ DESEJA SABER SE ESTÁ EM ORDEM CRESCENTE? (SEPARADOS POR VÍRGULA)\n').split(', '))
+            lista_numeros = []
+            for i in numeros:
+                lista_numeros.append(int(i))
         except ValueError:
             print('INSIRA SOMENTE VALORES NUMÉRICOS')
         else:
-            ordem = numeros.copy()
-            ordem.sort()
-            if numeros == ordem:
+            ordem = lista_numeros.copy()
+            ordem.sort(reverse=False)
+            if lista_numeros == ordem:
                 print('OS NÚMEROS ESTÃO EM ORDEM CRESCENTE', numeros, '=', ordem)
+                break
             else:
                 print('OS NÚMEROS NÃO ESTÃO EM ORDEM CRESCENTE', numeros, '!=', ordem)
+                break
 
 
 # Presença
 def presenca():
-    alunos = ['Heri Poter', 'Ermione Grenger', 'Roni Uislei', 'Voudemori']
+    alunos = ['Heri Poter', 'Ermione Grenger', 'Roni Uislei', 'Voudemorti']
     q_a = random.randint(0, 3)
     while True:
         try:
@@ -261,3 +262,90 @@ RESULTADO: {status}
 ---------------------------------------
             ''')
             break
+
+
+# Função F(x)
+def funcx():
+    while True:
+        try:
+            x = int(input('Insira o valor desejado de "X"\n'))
+        except ValueError:
+            print('SOMENTE VALORES NUMÉRICOS')
+        else:
+            try:
+                y = (4 * (x ** 2) - (3 * x) + 9) / x
+            except ZeroDivisionError:
+                print('X não pode ser 0')
+            else:
+                print(f'NA EXPRESSÃO: y = (4 * (x ** 2) - (3 * x) + 9) / x, SE SUBSTITUIRMOS X POR {x}, Y = {y}!')
+                break
+
+
+# Menuzinho
+def menu():
+    while True:
+        print('''
+---------------------------------
+CODIGOS - ESTRUTURAS DE DECISÃO - EXERCÍCIOS
+---------------------------------
+ 1. Exercício 1 - Senha
+ 2. Exercício 2 - Triângulo
+ 3. Exercício 3 - Par ou Ímpar
+ 4. Exercício 4 - Divisível
+ 5. Exercício 5 - Instituto Rapodopolense de Computação
+ 6. Exercício 6 - Conversão para Celsius
+ 7. Exercício 7 - Para executar esse Exercício, o arquivo 'aula004ex7.py' deve estar no mesmo diretório
+ 8. Exercício 8 - IPTU
+ 9. Exercício 9 - IMC
+10. Exercício 10 - Ordem Crescente
+11. Exercício 11 - Presença em Hogwarts
+12. Exercício 12 - Função F(x)
+13. Sair
+---------------------------------''')
+        try:
+            opt = int(input('SELECIONE SUA OPÇÃO:\n'))
+        except ValueError:
+            print('SOMENTE VALORES NUMÉRICOS')
+        else:
+            if opt == 1:
+                senha()
+                break
+            elif opt == 2:
+                lados_tri()
+                break
+            elif opt == 3:
+                p_i()
+                break
+            elif opt == 4:
+                div()
+                break
+            elif opt == 5:
+                irc()
+                break
+            elif opt == 6:
+                to_cel()
+                break
+            elif opt == 7:
+                a47.main()
+                break
+            elif opt == 8:
+                iptu()
+                break
+            elif opt == 9:
+                imc()
+                break
+            elif opt == 10:
+                ord_cresc()
+                break
+            elif opt == 11:
+                presenca()
+                break
+            elif opt == 12:
+                funcx()
+                break
+            else:
+                quit()
+
+
+if __name__ == '__main__':
+    menu()
