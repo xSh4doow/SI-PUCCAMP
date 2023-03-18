@@ -274,7 +274,7 @@ VERIFICAÇÃO DE PAGAMENTO DO IMPOSTO
             mes = int(input('POR FAVOR, INSIRA O MÊS ATUAL (ex: Jan - 01, Fev - 02): '))
 
             if 0 < mes:
-                if int(placa[-1]) == mes:
+                if int(placa[-1]) >= mes:
                     status = 'EM DIA'
                 if int(placa[-1]) < mes:
                     status = 'ATRASADO'

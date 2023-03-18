@@ -33,7 +33,7 @@ def lados_tri():
                 print('Triângulo Equilátero')
                 break
             elif lados[0] == lados[1] or lados[1] == lados[2] or lados[0] == lados[2]:
-                print('Triângulo Isóceles')
+                print('Triângulo Isósceles')
                 break
             else:
                 print('Triângulo Escaleno')
