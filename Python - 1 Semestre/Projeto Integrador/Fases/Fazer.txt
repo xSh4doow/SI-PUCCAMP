@@ -1,0 +1,4 @@
+o que fazer:
+ - Vincular os Menus (inicial -> login ou criar conta)
+ - Fazer Login (verificando o banco de dados)
+ - Criar Conta (pondo no banco de dados)

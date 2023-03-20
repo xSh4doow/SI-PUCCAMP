@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13fd3d90-07b7-4501-826b-e10e4b65a740" name="Changes" comment="Quarto Commit - Adicionando Projeto Integrador (XLSX e POD)">
-      <change afterPath="$PROJECT_DIR$/Projeto Integrador/Documentação/Cronograma Project.mpp" afterDir="false" />
+    <list default="true" id="13fd3d90-07b7-4501-826b-e10e4b65a740" name="Changes" comment="Quinto Commit - Finalizando Tarefa APPC-P, Salvando Arquivos de Projeto Integrador e Arrumando as Pastas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APPC-P/Aula-004.py" beforeDir="false" afterPath="$PROJECT_DIR$/APPC-P/Aula-004.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APPC-P/aula_004_d2.py" beforeDir="false" afterPath="$PROJECT_DIR$/APPC-P/aula_004_d2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto Integrador/Documentação/Projeto Integrador.pod" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +23,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/xsh4d/OneDrive/Documentos/Faculdade - Graduação/Python - 1 Semestre&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/xsh4d/Downloads/pyqt5_plugins-5.15.4.2.2-py3-none-win_amd64/pyqt5_plugins-5.15.4.2.2-py3-none-win_amd64.whl",
+    "settings.editor.selected.configurable": "terminal"
   }
-}</component>
-  <component name="RunManager" selected="Python.aula_004_d2">
-    <configuration name="Aula-004" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.criarconta">
+    <configuration name="F3-SQL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python - 1 Semestre" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -43,11 +40,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APPC-P" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projeto Integrador/Fases" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APPC-P/Aula-004.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\xsh4d\OneDrive\Documentos\Faculdade - Graduação\Python - 1 Semestre\Projeto Integrador\Fases\F3-SQL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +74,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exercicios_sequencia" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="criarconta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python - 1 Semestre" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +82,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APPC-T" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APPC-T/exercicios_sequencia.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)/criarconta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python - 1 Semestre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)/login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="menuini" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python - 1 Semestre" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)/menuini.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,9 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.criarconta" />
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python.menuini" />
+        <item itemvalue="Python.F3-SQL" />
         <item itemvalue="Python.aula_004_d2" />
-        <item itemvalue="Python.Aula-004" />
-        <item itemvalue="Python.exercicios_sequencia" />
       </list>
     </recent_temporary>
   </component>
@@ -129,12 +170,20 @@
       <option name="project" value="LOCAL" />
       <updated>1679098948380</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Quinto Commit - Finalizando Tarefa APPC-P, Salvando Arquivos de Projeto Integrador e Arrumando as Pastas">
+      <created>1679169446763</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679169446763</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Terceiro Commit - Adicionando Try/Except's nos arquivos: 003-IO e exs-sequência" />
     <MESSAGE value="Quarto Commit - Adicionando Projeto Integrador (XLSX e POD)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quarto Commit - Adicionando Projeto Integrador (XLSX e POD)" />
+    <MESSAGE value="Quinto Commit - Finalizando Tarefa APPC-P, Salvando Arquivos de Projeto Integrador e Arrumando as Pastas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quinto Commit - Finalizando Tarefa APPC-P, Salvando Arquivos de Projeto Integrador e Arrumando as Pastas" />
   </component>
 </project>
