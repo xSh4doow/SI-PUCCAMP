@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13fd3d90-07b7-4501-826b-e10e4b65a740" name="Changes" comment="Quinto Commit - Finalizando Tarefa APPC-P, Salvando Arquivos de Projeto Integrador e Arrumando as Pastas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="13fd3d90-07b7-4501-826b-e10e4b65a740" name="Changes" comment="Sexto Commit - Brincando com Python Gráfico" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,13 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679169446763</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sexto Commit - Brincando com Python Gráfico">
+      <created>1679343364551</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679343364551</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Terceiro Commit - Adicionando Try/Except's nos arquivos: 003-IO e exs-sequência" />
     <MESSAGE value="Quarto Commit - Adicionando Projeto Integrador (XLSX e POD)" />
     <MESSAGE value="Quinto Commit - Finalizando Tarefa APPC-P, Salvando Arquivos de Projeto Integrador e Arrumando as Pastas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quinto Commit - Finalizando Tarefa APPC-P, Salvando Arquivos de Projeto Integrador e Arrumando as Pastas" />
+    <MESSAGE value="Sexto Commit - Brincando com Python Gráfico" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sexto Commit - Brincando com Python Gráfico" />
   </component>
 </project>

@@ -1,6 +1,5 @@
-# coding: utf-8
-
 from PyQt5 import QtCore, QtGui, QtWidgets
+import sql_funcs as sql
 
 
 class Ui_MainWindow(object):
@@ -16,7 +15,7 @@ class Ui_MainWindow(object):
         MainWindow.setMouseTracking(False)
         MainWindow.setAcceptDrops(True)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("Imagens/LOGO PEQUENA.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("../uis/imagens/LOGO PEQUENA.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         MainWindow.setWindowOpacity(100.0)
         MainWindow.setStyleSheet("\n"
@@ -27,7 +26,7 @@ class Ui_MainWindow(object):
         self.Logo = QtWidgets.QLabel(self.centralwidget)
         self.Logo.setGeometry(QtCore.QRect(230, 10, 791, 371))
         self.Logo.setText("")
-        self.Logo.setPixmap(QtGui.QPixmap("Imagens/LOGO GERAL.png"))
+        self.Logo.setPixmap(QtGui.QPixmap("../uis/imagens/LOGO GERAL.png"))
         self.Logo.setObjectName("Logo")
         self.loginButton = QtWidgets.QPushButton(self.centralwidget)
         self.loginButton.setGeometry(QtCore.QRect(490, 520, 251, 61))
@@ -47,7 +46,7 @@ class Ui_MainWindow(object):
         self.userBox = QtWidgets.QComboBox(self.centralwidget)
         self.userBox.setGeometry(QtCore.QRect(500, 450, 241, 31))
         font = QtGui.QFont()
-        font.setFamily("Rockwell Extra Bold")
+        font.setFamily("Arial Bold")
         font.setPointSize(12)
         self.userBox.setFont(font)
         self.userBox.setObjectName("userBox")
@@ -60,18 +59,9 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
+        self.userBox.addItems(sql.usuarios('users'))
+
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Sistema de Controle de Qualidade do Ar"))
         self.loginButton.setText(_translate("MainWindow", "Entrar"))
-
-
-if __name__ == "__main__":
-    import sys
-
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())

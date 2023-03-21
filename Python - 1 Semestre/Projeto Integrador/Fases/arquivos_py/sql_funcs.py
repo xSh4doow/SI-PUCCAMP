@@ -7,38 +7,33 @@ conexao = psql.connect(host='us-cdbr-east-06.cleardb.net', user='b1596403d7ceee'
                        cursorclass=psql.cursors.DictCursor, autocommit=True)
 
 
-# Inicializar Sistema
-
-# Tela de Entrada
-# ------------------------------------ #
-# --------------SQCA------------------ #
-# ------------------------------------ #
-# --------------LOGIN----------------- #
-# --------------SIGN UP--------------- #
-# ------------------------------------ #
-
-# Criar Conta
 def criar_conta(username):
     with conexao.cursor() as c:
         criar = f"INSERT INTO users (username) VALUES ('{username}')"
         try:
             c.execute(criar)
         except Exception as e:
-            print(e)
+            igual = f'''(1062, "Duplicate entry '{username}' for key 'username_UNIQUE'")'''
+            if str(e) == igual:
+                return f'O ar {username} já existe, escolha outro nome!'
         else:
-            print(f'Criado! Seu usuário é: {username}')
-            checar('users')
+            return f'O ar {username} foi criado com sucesso!'
 
 
-def checar(tabela):
+def usuarios(tabela):
     with conexao.cursor() as c:
-        checa = f"SELECT * FROM {tabela}"
+        checa = f"SELECT * FROM {tabela} ORDER BY username"
         try:
             c.execute(checa)
         except Exception as e:
-            print(e)
+            return e
         else:
-            print(c.fetchall())
+            users = c.fetchall()
+            user_list = []
+            for user in users:
+                a = user.get('username')
+                user_list.append(a.title())
+            return user_list
 
 
 def login(username):
@@ -55,3 +50,12 @@ def login(username):
             print(e)
 
 
+def clean(tabela):
+    clean = f"DELETE FROM {tabela}"
+    with conexao.cursor() as c:
+        try:
+            c.execute(clean)
+        except Exception as e:
+            return e
+        else:
+            return 'limpo'

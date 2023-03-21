@@ -1,4 +1,3 @@
 o que fazer:
- - Vincular os Menus (inicial -> login ou criar conta)
- - Fazer Login (verificando o banco de dados)
- - Criar Conta (pondo no banco de dados)
+- Linkar o Login com Menu Principal (passando o nome do ar)
+- Fazer o inserir amostras

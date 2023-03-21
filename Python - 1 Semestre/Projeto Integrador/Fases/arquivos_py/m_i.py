@@ -1,13 +1,14 @@
-# coding: utf-8
-
 from PyQt5 import QtCore, QtGui, QtWidgets
+from c_c import Ui_Form
+from login import Ui_MainWindow as UMWL
+import sys
 
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1280, 720)
-        MainWindow.setMaximumSize(QtCore.QSize(1280, 720))
+        MainWindow.setMaximumSize(QtCore.QSize(1280, 16777215))
         font = QtGui.QFont()
         font.setBold(False)
         font.setItalic(False)
@@ -15,7 +16,7 @@ class Ui_MainWindow(object):
         MainWindow.setFont(font)
         MainWindow.setMouseTracking(False)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("Imagens/LOGO PEQUENA.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap("../uis/imagens/LOGO PEQUENA.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         MainWindow.setWindowOpacity(100.0)
         MainWindow.setStyleSheet("\n"
@@ -29,7 +30,7 @@ class Ui_MainWindow(object):
         font.setPointSize(12)
         self.Logo.setFont(font)
         self.Logo.setText("")
-        self.Logo.setPixmap(QtGui.QPixmap("Imagens/LOGO GERAL.png"))
+        self.Logo.setPixmap(QtGui.QPixmap("../uis/imagens/LOGO GERAL.png"))
         self.Logo.setObjectName("Logo")
         self.loginButton = QtWidgets.QPushButton(self.centralwidget)
         self.loginButton.setGeometry(QtCore.QRect(500, 430, 251, 61))
@@ -66,16 +67,30 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
+        self.signupButton.clicked.connect(self.openSignup)
+        self.loginButton.clicked.connect(self.openLogin)
+
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Sistema de Controle de Qualidade do Ar"))
         self.loginButton.setText(_translate("MainWindow", "Entrar"))
-        self.signupButton.setText(_translate("MainWindow", "Criar Conta"))
+        self.signupButton.setText(_translate("MainWindow", "Criar Ar"))
+
+    def openSignup(self):
+        self.window = QtWidgets.QWidget()
+        self.ui = Ui_Form()
+        self.ui.setupUi(self.window)
+        self.window.show()
+
+    def openLogin(self):
+        self.window = QtWidgets.QMainWindow()
+        self.ui = UMWL()
+        self.ui.setupUi(self.window)
+        self.window.show()
+        MainWindow.close()
 
 
-if __name__ == "__main__":
-    import sys
-
+if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()

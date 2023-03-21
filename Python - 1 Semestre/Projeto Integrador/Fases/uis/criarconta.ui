@@ -109,19 +109,6 @@ background-color: rgb(226, 226, 226);</string>
     <string>DIGITE SEU USERNAME DESEJADO:</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>520</y>
-     <width>251</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>ERRO!</string>
-   </property>
-  </widget>
  </widget>
  <resources/>
  <connections/>
