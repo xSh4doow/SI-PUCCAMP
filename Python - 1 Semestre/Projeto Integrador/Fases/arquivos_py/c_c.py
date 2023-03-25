@@ -55,6 +55,9 @@ class Ui_Form(object):
         username = self.userinput.text()
         resp = sql.criar_conta(username)
         msg = QtWidgets.QMessageBox()
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("../uis/imagens/LOGO PEQUENA.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        msg.setWindowIcon(icon)
         msg.setWindowTitle('Aviso!')
         msg.setText(resp)
 

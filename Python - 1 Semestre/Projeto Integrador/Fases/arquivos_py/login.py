@@ -1,5 +1,6 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sql_funcs as sql
+from menuprincipal import Ui_MainWindow as UMWP
 
 
 class Ui_MainWindow(object):
@@ -59,9 +60,18 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-        self.userBox.addItems(sql.usuarios('users'))
+        self.userBox.addItems(sql.usuarios('ares', ''))
+        self.loginButton.clicked.connect(self.openMP)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Sistema de Controle de Qualidade do Ar"))
         self.loginButton.setText(_translate("MainWindow", "Entrar"))
+
+    def openMP(self):
+        self.window = QtWidgets.QMainWindow()
+        self.ui = UMWP()
+        self.ui.setupUi(self.window)
+        self.selected = self.userBox.currentText()
+        self.ui.airLabel.setText(self.selected)
+        self.window.show()

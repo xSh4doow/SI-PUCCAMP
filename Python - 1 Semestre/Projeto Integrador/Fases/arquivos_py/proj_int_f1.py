@@ -94,6 +94,9 @@ def classificadora(objeto):
         n = 4
     if (mp10 > 250) or (mp25 > 125) or (o3 > 200) or (co > 15) or (no2 > 1130) or (so2 > 800):
         n = 5
+    if mp10 < 0 or mp25 < 0 or o3 < 0 or co < 0 or no2 < 0 or so2 < 0:
+        n = 0
+        print('INSIRA SOMENTE VALORES INTEIROS POSITIVOS')
 
     # Retornando Informações ao Usuário
     if n == 1:
@@ -239,7 +242,7 @@ Por favor, insira corretamente os valores:
     classificadora(a1)
 
     # Retorno ou Saída
-    # continuar() - comentado pois implementação é apenas na fase 2-3; deve ser implementado junto dos 'Whiles'
+    continuar()
 
 
 # Play

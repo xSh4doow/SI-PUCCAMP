@@ -1,3 +1,1 @@
-o que fazer:
-- Linkar o Login com Menu Principal (passando o nome do ar)
-- Fazer o inserir amostras
+Incluir Classificar
