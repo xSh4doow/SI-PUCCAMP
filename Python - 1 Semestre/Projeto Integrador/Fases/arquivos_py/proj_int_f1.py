@@ -1,4 +1,4 @@
-# Criação da Fase 1 do Projeto Integrador (para análise de Requisitos)- 11/03/2023
+# Criação da Fase 1 do Projeto Integrador- 11/03/2023
 import time
 
 
@@ -210,7 +210,7 @@ def continuar():
             time.sleep(1.5)
             break
         elif resp.lower() == 'nao':
-            print('Tudo bem, obrigado por usar meu sistema!')
+            print('Tudo bem, obrigado por usar nosso sistema!')
             time.sleep(1)
             quit()
         else:
@@ -219,30 +219,36 @@ def continuar():
 
 # Inicialização do Sistema
 def main():
-    # Print da Introdução
-    print(f'''
+    while True:
+        # Print da Introdução
+        print(f'''
+
+
+
+
+
 ------------------------------------------
 Seja bem-vindo ao SCQA - Sistema de Controle de Qualidade do Ar
 ------------------------------------------
 Por favor, insira corretamente os valores:
-    ''')
+        ''')
 
-    # Coleta de Dados
-    mp10 = list(input('MP10: ').split(','))
-    mp25 = list(input('MP2.5: ').split(','))
-    o3 = list(input('03 - Ozônio: ').split(','))
-    co = list(input('CO - Monóxido de Carbono: ').split(','))
-    no2 = list(input('NO2 - Dióxido de Nitrogênio: ').split(','))
-    so2 = list(input('SO2 - Dióxido de Enxofre: ').split(','))
+        # Coleta de Dados
+        mp10 = list(input('MP10: ').split(','))
+        mp25 = list(input('MP2.5: ').split(','))
+        o3 = list(input('03 - Ozônio: ').split(','))
+        co = list(input('CO - Monóxido de Carbono: ').split(','))
+        no2 = list(input('NO2 - Dióxido de Nitrogênio: ').split(','))
+        so2 = list(input('SO2 - Dióxido de Enxofre: ').split(','))
 
-    # Inialização de um Objeto Ar e atribuição das características
-    a1 = Ar(mp10, mp25, o3, co, no2, so2)
+        # Inialização de um Objeto Ar e atribuição das características
+        a1 = Ar(mp10, mp25, o3, co, no2, so2)
 
-    # Cálculo e Classificação - cálculo já incorporado na função classificadora
-    classificadora(a1)
+        # Cálculo e Classificação - cálculo já incorporado na função classificadora
+        classificadora(a1)
 
-    # Retorno ou Saída
-    continuar()
+        # Retorno ou Saída
+        continuar()
 
 
 # Play
