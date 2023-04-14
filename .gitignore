@@ -1,1 +1,632 @@
 /Python - 1 Semestre/.idea/
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/.gdignore
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/fall/1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/idle/1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/jump/1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/run/1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/1 - Foreground_scenery.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/1 - Foreground_scenery.png-f5111a2d983301e1ec74376819ba3c28.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/1 - Foreground_scenery.png-f5111a2d983301e1ec74376819ba3c28.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/1 - Leaf_top.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/1 - Leaf_top.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/1 - Leaf_top.png-6c2910f0374e5dc4cb9cbacd7acbd468.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/1 - Leaf_top.png-6c2910f0374e5dc4cb9cbacd7acbd468.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Background parts/1 - Snowy_foreground_area.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Background parts/1 - Snowy_foreground_area.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/1 - Snowy_foreground_area.png-e5ba651ee57ea9cf2bb2f59086593803.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/1 - Snowy_foreground_area.png-e5ba651ee57ea9cf2bb2f59086593803.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/1 - Waters_version_1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/1 - Waters_version_1.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/1 - Waters_version_1.png-d1332df5c47bcb6b151e89ca5bffd046.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/1 - Waters_version_1.png-d1332df5c47bcb6b151e89ca5bffd046.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/01 bg.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/01 bg.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/01 bg.png-5c147a64d9ad9a5f2d8a42627dfff6d4.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/01 bg.png-5c147a64d9ad9a5f2d8a42627dfff6d4.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/fall/2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/idle/2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/jump/2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/run/2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/2 - Hills.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/2 - Hills.png-636a7a890e46f4e751cb53ccf8a14433.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/2 - Hills.png-636a7a890e46f4e751cb53ccf8a14433.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Background parts/2 - Smaller_mountains.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Background parts/2 - Smaller_mountains.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/2 - Smaller_mountains.png-3758586d9e4dfa9637b379f15a5247b4.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/2 - Smaller_mountains.png-3758586d9e4dfa9637b379f15a5247b4.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/2 - Trees.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/2 - Trees.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/2 - Trees.png-8db20bd89bc0493fc40c564ed2b4b388.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/2 - Trees.png-8db20bd89bc0493fc40c564ed2b4b388.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/2 - Waters_version_2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/2 - Waters_version_2.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/2 - Waters_version_2.png-1628bf5d50a16be0203e67b41a8674a1.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/2 - Waters_version_2.png-1628bf5d50a16be0203e67b41a8674a1.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/02 bg2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/02 bg2.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/02 bg2.png-9b1d044e597e6e101ed79ce48522d82c.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/02 bg2.png-9b1d044e597e6e101ed79ce48522d82c.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/run/3.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Background parts/3 - Big_mountain_BG.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Background parts/3 - Big_mountain_BG.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/3 - Big_mountain_BG.png-f1669dac6c69aa200c759adcd8b0bf18.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/3 - Big_mountain_BG.png-f1669dac6c69aa200c759adcd8b0bf18.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/3 - Bottom_leaf_piles.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/3 - Bottom_leaf_piles.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/3 - Bottom_leaf_piles.png-d819d5e2762e4ee78603d01ce0c531ee.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/3 - Bottom_leaf_piles.png-d819d5e2762e4ee78603d01ce0c531ee.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/3 - Cloud_cover_1.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/3 - Cloud_cover_1.png-c1a51b4b666bf3e25d7c73f764d78321.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/3 - Cloud_cover_1.png-c1a51b4b666bf3e25d7c73f764d78321.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/3 - Floating_clouds.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/3 - Floating_clouds.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/3 - Floating_clouds.png-0d8ae08251f7fac2d01b1439162b84e3.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/3 - Floating_clouds.png-0d8ae08251f7fac2d01b1439162b84e3.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/03 water.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/03 water.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/03 water.png-e3e0eb1cfd08302e2a1eb701906f3cf5.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/03 water.png-e3e0eb1cfd08302e2a1eb701906f3cf5.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/run/4.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/4 - Background_clouds.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/4 - Background_clouds.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/4 - Background_clouds.png-7d69fb7fcf310635ec1d787669ea8da7.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/4 - Background_clouds.png-7d69fb7fcf310635ec1d787669ea8da7.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/4 - Cloud_cover_2.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/4 - Cloud_cover_2.png-08a367128748b3e1b65a62a462de0710.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/4 - Cloud_cover_2.png-08a367128748b3e1b65a62a462de0710.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/4 - Tree_row_BG_1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/4 - Tree_row_BG_1.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/4 - Tree_row_BG_1.png-74537af0f0e235bfb7a4dda0c71fa522.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/4 - Tree_row_BG_1.png-74537af0f0e235bfb7a4dda0c71fa522.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/04 rocksback.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/04 rocksback.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/04 rocksback.png-38b2e4fc109d51ee2ffa6d742fe08169.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/04 rocksback.png-38b2e4fc109d51ee2ffa6d742fe08169.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/5 - Sky_color.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/5 - Sky_color.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/5 - Sky_color.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/5 - Sky_color.png-eabee45b502289be3fdd372f1ede4630.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/5 - Sky_color.png-eabee45b502289be3fdd372f1ede4630.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/5 - Sky_color.png-f416420669cfbddfd4f557ab029ffc21.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/5 - Sky_color.png-f416420669cfbddfd4f557ab029ffc21.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/5 - Tree_row_BG_2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/5 - Tree_row_BG_2.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/5 - Tree_row_BG_2.png-eb5d1c336c0ba4a2eb8dc15eee2a69bc.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/5 - Tree_row_BG_2.png-eb5d1c336c0ba4a2eb8dc15eee2a69bc.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/05 rocksfront.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/05 rocksfront.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/05 rocksfront.png-77fc5d632139b45d3b7532391d05e229.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/05 rocksfront.png-77fc5d632139b45d3b7532391d05e229.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/6 - Distant_trees.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/6 - Distant_trees.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/6 - Distant_trees.png-4a516b1e1f984000875e8959d23cedd4.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/6 - Distant_trees.png-4a516b1e1f984000875e8959d23cedd4.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/_Complete_static_BG_(288 x 208).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/_Complete_static_BG_(288 x 208).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/_Complete_static_BG_(288 x 208).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Background parts/_Complete_static_BG_(288 x 208).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/_Complete_static_BG_(288 x 208).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Background parts/_Complete_static_BG_(288 x 208).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Background parts/_Complete_static_BG_(288 x 208).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Background parts/_Complete_static_BG_(288 x 208).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/_Complete_static_BG_(288 x 208).png-2bdc14e794e1bc0ca12168a4f0a37894.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/_Complete_static_BG_(288 x 208).png-2bdc14e794e1bc0ca12168a4f0a37894.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/_Complete_static_BG_(288 x 208).png-5ec2d51aedcd709d4aa7c9c386be155a.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/_Complete_static_BG_(288 x 208).png-5ec2d51aedcd709d4aa7c9c386be155a.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/_Complete_static_BG_(288 x 208).png-7519697439c70d176e3876ab1f1a694e.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/_Complete_static_BG_(288 x 208).png-7519697439c70d176e3876ab1f1a694e.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/_Complete_static_BG_(288 x 208).png-f73edea0c19a708d8a43d98d910c7329.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/_Complete_static_BG_(288 x 208).png-f73edea0c19a708d8a43d98d910c7329.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/ajustes.py
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Autumn_entities (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Autumn_entities (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Autumn_entities (16 x 16).png-9e67dda06191bb349d1965fb2d438ffa.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Autumn_entities (16 x 16).png-9e67dda06191bb349d1965fb2d438ffa.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/balao_d.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/balao_d.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/bandeira.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/bandeira.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/bandeira.png-9f43a8ab9e0b68def12640690a4ce8f3.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/bandeira.png-9f43a8ab9e0b68def12640690a4ce8f3.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/enemies/morcego/bat.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/BG.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Background parts/BG.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Bird.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Block.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Blocks (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Blocks (16 x 16).png-423be34ee8a67a6c15fac46811e0a081.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Blocks (16 x 16).png-423be34ee8a67a6c15fac46811e0a081.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Bola.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Bone.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Bone.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Boss.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/boss.ogg
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/boss.ogg.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/boss.ogg-4ff5a0e4667b8f0b6be562791efdfc1d.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/boss.ogg-4ff5a0e4667b8f0b6be562791efdfc1d.oggstr
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Boss.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Bubbling_Oil_frames (16 x 32).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Bubbling_Oil_frames (16 x 32).png-901b503986f275c6959106a44ea60761.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Bubbling_Oil_frames (16 x 32).png-901b503986f275c6959106a44ea60761.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Bushly_PrincessSera.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Bushly_PrincessSera.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Bushly_PrincessSera.png-2ae91eafa1c3e83f10826cdc82c5f8d4.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Bushly_PrincessSera.png-2ae91eafa1c3e83f10826cdc82c5f8d4.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Camera2D.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/cave_assets.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/cave_assets.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/cave_assets.png-6f83205a8bee42f23f4879c5e79c46f9.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/cave_assets.png-6f83205a8bee42f23f4879c5e79c46f9.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/cave_tileset.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/cave_tileset.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/cave_tileset.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/cave_tileset.png-d320ce77b056adecc0152c7bbf4d72f6.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/cave_tileset.png-d320ce77b056adecc0152c7bbf4d72f6.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/tilesets/cave_tileset.tsx
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/caverna.ogg
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/caverna.ogg.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/caverna.ogg-44d8205e67030272eeed1d988582a136.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/caverna.ogg-44d8205e67030272eeed1d988582a136.oggstr
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/characters.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/characters.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/characters.png-195429c44529a5f7c58056f0e12fd727.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/characters.png-195429c44529a5f7c58056f0e12fd727.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/CheckPoint.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/CheckPoint.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/chest-storebuy.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/chest-storebuy.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/chest-storebuy.wav-7d7ea30b28819ee14069d2d3797642af.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/chest-storebuy.wav-7d7ea30b28819ee14069d2d3797642af.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Cobra.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Coin.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/coin.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Coin.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/coin.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/coin.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/coin.wav-009d708f3db0f25652261605efb9d169.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/coin.wav-009d708f3db0f25652261605efb9d169.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/tilesets/coins.tsx
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/coins/coins1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/coins/coins2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/coins/coins3.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/coins/coins4.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/coins/coins5.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/coins/coins6.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/coins/coins7.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/corner_set.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/tilesets/corner_set.tsx
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Crazy Critters OGA ver.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Crazy Critters OGA ver.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Crazy Critters OGA ver.png-4579a721d2b01e1a4a42f16f0ee2f14f.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Crazy Critters OGA ver.png-4579a721d2b01e1a4a42f16f0ee2f14f.stex
+/Python - 1 Semestre/Projeto Integrador/Documentação/Cronograma Project (extensao errada).mmp
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Cutscene.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Cutscene_B.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Cutscene_E.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/deathcap.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/deathcap.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/deathcap.png-6606e8174c95a894a3a7872d977083ba.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/deathcap.png-6606e8174c95a894a3a7872d977083ba.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/default_bus_layout.tres
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/default_env.tres
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Resources/DefaultPlayerMovement.tres
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/dialog.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/dialog.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/dialog.png-059cb4cc16333a2420015b434b53234d.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/dialog.png-059cb4cc16333a2420015b434b53234d.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/dialogo_cont.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/dialogo_cont.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/dialogos.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/dialogos.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/die.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/die.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/die.wav-19cfd3d8cc26fc4261a4587e869440b2.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/die.wav-19cfd3d8cc26fc4261a4587e869440b2.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Door.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Door.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/enemy_kill.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/enemy_kill.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/enemy_kill.wav-513acbe52c08ab582fec0fb4d0eee8ba.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/enemy_kill.wav-513acbe52c08ab582fec0fb4d0eee8ba.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/EnemyBase.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/EnemyBase.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Esqueleto.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Esqueleto.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/events.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/export_presets.cfg
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Extra_plants (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Extra_plants (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Extra_plants (16 x 16).png-d3b9995a6005a4416dcb4510954f2931.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Extra_plants (16 x 16).png-d3b9995a6005a4416dcb4510954f2931.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/FallZone.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/FallZone.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Fantasma.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Fazer.txt
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Fim.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark23.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark23.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark23.png-07eb816180487af813c1b1de787e5af5.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark23.png-07eb816180487af813c1b1de787e5af5.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark23_c1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark23_c1.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark23_c1.png-00e0e33be8d3b44db3ed465e68e7b9db.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark23_c1.png-00e0e33be8d3b44db3ed465e68e7b9db.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark23_c2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark23_c2.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark23_c2.png-8f3256647b73b755b3fdd69e9c9153c0.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark23_c2.png-8f3256647b73b755b3fdd69e9c9153c0.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark23_c3.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark23_c3.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark23_c3.png-e7741a175fc65f85b491e59a8278b5f2.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark23_c3.png-e7741a175fc65f85b491e59a8278b5f2.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark24.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark24.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark24.png-bbb0ede7c10461eafadc0fcf8471bc6c.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark24.png-bbb0ede7c10461eafadc0fcf8471bc6c.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark24_c1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark24_c1.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark24_c1.png-bd2ba23d38c13a4a64a4cec01a73c505.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark24_c1.png-bd2ba23d38c13a4a64a4cec01a73c505.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark24_c2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark24_c2.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark24_c2.png-082215b5c5d3c30a8887388f79230121.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark24_c2.png-082215b5c5d3c30a8887388f79230121.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark25.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark25.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark25.png-3c5068a6cc5a2b50ed3ebb2b5daff08b.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark25.png-3c5068a6cc5a2b50ed3ebb2b5daff08b.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark25_c.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/flatDark25_c.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark25_c.png-755b9c7814e6b019ff3232cd39ed75fd.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/flatDark25_c.png-755b9c7814e6b019ff3232cd39ed75fd.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Flowers (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Flowers (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Flowers (16 x 16).png-3a74f338fb8a5336cb689848507167a4.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Flowers (16 x 16).png-3a74f338fb8a5336cb689848507167a4.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/FlyingEnemies.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Resources/fonte.tres
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/four-seasons-tileset.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/four-seasons-tileset.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/four-seasons-tileset.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/four-seasons-tileset.png-4d19b25616a0fbc6d43ae1d6e6bce665.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/four-seasons-tileset.png-4d19b25616a0fbc6d43ae1d6e6bce665.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/tilesets/four-seasons-tileset.tsx
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/four-seasons-tileset-less.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/four-seasons-tileset-less.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/four-seasons-tileset-less.png-210f74150fbfaad7575607a2570256b7.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/four-seasons-tileset-less.png-210f74150fbfaad7575607a2570256b7.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/enemies/sapo/frog.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/enemies/sapo/frogspawn.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/tilesets/frogspawn.tsx
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/game_data.py
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/enemies/fantasma/ghost.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/ghostIce_all.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/ghostIce_all.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/ghostIce_all.png-88d7066c1594d0dbc227118a3c7df5ca.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/ghostIce_all.png-88d7066c1594d0dbc227118a3c7df5ca.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Global.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Gocumelo.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Grassland_entities (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Grassland_entities (16 x 16).png-669fa2d23a7ccd44c3dfd6fc5439818d.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Grassland_entities (16 x 16).png-669fa2d23a7ccd44c3dfd6fc5439818d.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/HitBox.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/HitBox.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/House (112 x 96).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/House (112 x 96).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/House (112 x 96).png-fa792eed4682131617c8fb80feb22f36.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/House (112 x 96).png-fa792eed4682131617c8fb80feb22f36.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/HUD.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/HUD.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/hurt.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/hurt.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/hurt.wav-ff3ed78630d6a680335f1bc475009671.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/hurt.wav-ff3ed78630d6a680335f1bc475009671.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/HurtBox.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/icon.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/icon.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/icon.png-487276ed1e3a0c39cad0279d744ee560.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/icon.png-487276ed1e3a0c39cad0279d744ee560.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/Jogo Finalizado/index.apple-touch-icon.png
+/Python - 1 Semestre/Fundamentos de SI e ES/Jogo Finalizado/index.audio.worklet.js
+/Python - 1 Semestre/Fundamentos de SI e ES/Jogo Finalizado/index.html
+/Python - 1 Semestre/Fundamentos de SI e ES/Jogo Finalizado/index.icon.png
+/Python - 1 Semestre/Fundamentos de SI e ES/Jogo Finalizado/index.js
+/Python - 1 Semestre/Fundamentos de SI e ES/Jogo Finalizado/index.pck
+/Python - 1 Semestre/Fundamentos de SI e ES/Jogo Finalizado/index.png
+/Python - 1 Semestre/Fundamentos de SI e ES/Jogo Finalizado/index.wasm
+/Python - 1 Semestre/Fundamentos de SI e ES/Jogo Finalizado/index.zip
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/inicio.ogg
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/inicio.ogg.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inicio.ogg-23e6c1068d58e5ed25b4d0ec7f58c496.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inicio.ogg-23e6c1068d58e5ed25b4d0ec7f58c496.oggstr
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/inimigos1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/inimigos1.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inimigos1.png-2a4bbd79e30b7ae19110e17e990b31bf.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inimigos1.png-2a4bbd79e30b7ae19110e17e990b31bf.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/inimigos2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/inimigos2.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inimigos2.png-7834a5995da9688a569835fedef14e9e.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inimigos2.png-7834a5995da9688a569835fedef14e9e.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/inimigos3.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/inimigos3.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inimigos3.png-de60ea4b3e879d8fa5d37a1a0eb230d8.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inimigos3.png-de60ea4b3e879d8fa5d37a1a0eb230d8.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/inimigos4.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/inimigos4.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inimigos4.png-d26170228a4d6cd58de47e4426935f2d.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inimigos4.png-d26170228a4d6cd58de47e4426935f2d.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/inimigos5.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/inimigos5.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inimigos5.png-2f1b65697de740a1ce94dad97c01e3eb.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/inimigos5.png-2f1b65697de740a1ce94dad97c01e3eb.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Items.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Items.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Items.png-19d927150ba85415fafa06723e56d284.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Items.png-19d927150ba85415fafa06723e56d284.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/jump.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/jump.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/jump.wav-81b67a307a1849f1bf4887af4439406d.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/jump.wav-81b67a307a1849f1bf4887af4439406d.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/jump/jump_1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/jump/jump_2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/jump/jump_3.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/jump/jump_4.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/jump/jump_5.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/jump/jump_6.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/kill_boss.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/kill_boss.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/kill_boss.wav-ee6668b5744985db03ac5d2ea67d976b.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/kill_boss.wav-ee6668b5744985db03ac5d2ea67d976b.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Ladder.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Ladder.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/land/land_1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/land/land_2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/land/land_3.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/land/land_4.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/land/land_5.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Lava_frames (16 x 32).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Lava_frames (16 x 32).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Lava_frames (16 x 32).png-9ed290349eabff38e630c881835917cd.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Lava_frames (16 x 32).png-9ed290349eabff38e630c881835917cd.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/level.py
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Level.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/level0.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/level0.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/level0.wav-2e7b1da13cccedd9fb840f6f1b97d3ee.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/level0.wav-2e7b1da13cccedd9fb840f6f1b97d3ee.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/level_data/level_0.tmx
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Levels/Level_0.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/1/level_1.tmx
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Levels/Level_1.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/1/level_1_background.csv
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/1/level_1_background2.csv
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/1/level_1_cobra.csv
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/1/level_1_coins.csv
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/1/level_1_interativeis_four.csv
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/1/level_1_interativeis_overworld.csv
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/1/level_1_player.csv
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/1/level_1_sapo.csv
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/1/level_1_terrain_four.csv
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/1/level_1_terrain_overworld.csv
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Levels/Level_2.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/level_2.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/level_2.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/level_2.wav-ea3a8baada2b1d13f6728c0f509872b5.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/level_2.wav-ea3a8baada2b1d13f6728c0f509872b5.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Resources/Level_3.tres
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Levels/Level_3.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Levels/Level_Boss.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/levelend.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/levelend.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/levelend.wav-1b089f644bf91f6fb57194700720a44a.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/levelend.wav-1b089f644bf91f6fb57194700720a44a.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/LICENSE.txt
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/License-Agreement.txt
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Loja.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Loja.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Loja.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Loja.png-8c8ac15e0155bf1b48fdeb7830bd5e6c.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Loja.png-8c8ac15e0155bf1b48fdeb7830bd5e6c.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Loja.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Levels/Loja.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/loja.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/loja.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/loja.wav-4378f2660db4d1d6579453337b8ab053.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/loja.wav-4378f2660db4d1d6579453337b8ab053.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/main.py
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/menu.mp3
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/menu.mp3.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/menu.mp3-205b91423a44af9346ea9b522aa8c58e.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/menu.mp3-205b91423a44af9346ea9b522aa8c58e.mp3str
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Menu Iniciar.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Menu Iniciar.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Metal_Wire_fence (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Metal_Wire_fence (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Metal_Wire_fence (16 x 16).png-05af0a7d61e5dcf2317877ec4d60629f.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Metal_Wire_fence (16 x 16).png-05af0a7d61e5dcf2317877ec4d60629f.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/mini_fantasy_sprites_oga_ver.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/mini_fantasy_sprites_oga_ver.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/mini_fantasy_sprites_oga_ver.png-0d102b790bf1ce4187fda6b1aea32bc5.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/mini_fantasy_sprites_oga_ver.png-0d102b790bf1ce4187fda6b1aea32bc5.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/mockupcave.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Background Cave/mockupcave.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/mockupcave.png-2bedcbc22c994229e4d32edcbbd2ba39.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/mockupcave.png-2bedcbc22c994229e4d32edcbbd2ba39.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/MovingEnemy.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/MovingEnemy.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/mundo1.ogg
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/mundo1.ogg.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/mundo1.ogg-26cdc538b05957f563cdaaf67e0a399b.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/mundo1.ogg-26cdc538b05957f563cdaaf67e0a399b.oggstr
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/nivel.py
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Old enemies.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Old enemies.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Old enemies.png-b4466ce7ba39fb4093a2942d9c23f80a.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Old enemies.png-b4466ce7ba39fb4093a2942d9c23f80a.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Old enemies 2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Old enemies 2.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Old enemies 2.png-1276894addfd65f972ea0b748aa070ed.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Old enemies 2.png-1276894addfd65f972ea0b748aa070ed.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Old hero.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Old hero.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Old hero.png-caa1b5eb5b8293cdff3be062431f5c50.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Old hero.png-caa1b5eb5b8293cdff3be062431f5c50.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/tilesets/overworld.tsx
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/pantenun.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/particles.py
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/pause.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/pause.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/pause.wav-76a4947cd3102aba48a3d201635cd51e.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/pause.wav-76a4947cd3102aba48a3d201635cd51e.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/personagens_1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/pirate.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/pirate.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/pirate.png-22d682a7eafa02345cbb814e2283c369.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/pirate.png-22d682a7eafa02345cbb814e2283c369.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Player.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/player.py
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Player.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/PlayerMovement.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Polvo.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/powerup.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/powerup.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/powerup.wav-52bfc5e810d3ab8ac421a5799855ad8d.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/powerup.wav-52bfc5e810d3ab8ac421a5799855ad8d.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/powerups.aseprite
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/powerups.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/powerups.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/powerups.png-e49435476f51ec481b276643d382988c.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/powerups.png-e49435476f51ec481b276643d382988c.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/project.godot
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Retro Gaming.ttf
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Rock_shape (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Rock_shape (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Rock_shape (16 x 16).png-7ec2bd3de2010b2fc5b739db2cf8851d.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Rock_shape (16 x 16).png-7ec2bd3de2010b2fc5b739db2cf8851d.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/run/run_1.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/run/run_2.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/run/run_3.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/run/run_4.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/particulas/run/run_5.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Sapo.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/ScreenShake.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Season_collection.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/Season_collection.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Season_collection.png-57b1ca930d8b04f61e76fa0b861f11a3.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Season_collection.png-57b1ca930d8b04f61e76fa0b861f11a3.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/SecretArea.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/SecretArea.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/select.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/select.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/select.wav-6836a7f751e2cf69981e679fd49363fc.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/select.wav-6836a7f751e2cf69981e679fd49363fc.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/enemies/esqueleto/skeleton.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Snack_machine_Bench_Trash_bin (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Snack_machine_Bench_Trash_bin (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Snack_machine_Bench_Trash_bin (16 x 16).png-bb89954289e2f286ef1e6da7a8d4b5e1.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Snack_machine_Bench_Trash_bin (16 x 16).png-bb89954289e2f286ef1e6da7a8d4b5e1.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/soldier_sheet.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/soldier_sheet.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/soldier_sheet.png-9d7a7b6a85ef9ab875e29fe9bbc52a9e.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/soldier_sheet.png-9d7a7b6a85ef9ab875e29fe9bbc52a9e.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/SoundPlayer.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/SoundPlayer.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/pantenun/spawn.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/tilesets/spawn.tsx
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/enemies/cobra/spawn_cobra.png
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/levels/tilesets/spawn_cobra.tsx
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Spikes.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/super_random_sprites.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/super_random_sprites.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/super_random_sprites.png-4318814b04d8f01d6c790021c9b96975.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/super_random_sprites.png-4318814b04d8f01d6c790021c9b96975.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/support.py
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/talvez.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/talvez.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/talvez.png-57fdbb62e057525802b648454656f3cf.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/talvez.png-57fdbb62e057525802b648454656f3cf.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Terrain (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/1 - Grassland/Terrain (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/2 - Autumn Forest/Terrain (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Terrain (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Terrain (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Terrain (16 x 16).png-37f6e0fbb2a63f5c8dd401086797af6f.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Terrain (16 x 16).png-37f6e0fbb2a63f5c8dd401086797af6f.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Terrain (16 x 16).png-79a9c5b4021e0d8b988ed1b5bc88f8c8.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Terrain (16 x 16).png-79a9c5b4021e0d8b988ed1b5bc88f8c8.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Terrain (16 x 16).png-a6f18a1eb309a06c70bd20bb533088f0.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Terrain (16 x 16).png-a6f18a1eb309a06c70bd20bb533088f0.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Terrain (16 x 16).png-bc6ac2d76400250cb1d15faa0baf3ffe.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Terrain (16 x 16).png-bc6ac2d76400250cb1d15faa0baf3ffe.stex
+/Python - 1 Semestre/APPC-P/Trabalho-Extenso/teste.py
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/sprites/tile_map.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/tile_sheet.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/tile_sheet.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/tile_sheet.png-451fa802e6f67f762accb523b53ca8ac.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/tile_sheet.png-451fa802e6f67f762accb523b53ca8ac.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/tile_sheet_allmaps.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/tile_sheet_allmaps.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/tile_sheet_allmaps.png-14dce428ebc196f988a852eb712b6276.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/tile_sheet_allmaps.png-14dce428ebc196f988a852eb712b6276.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/TileMap.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/TileMap_8x8.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/PyGame/tiles.py
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/TL_Creatures.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/TL_Creatures.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/TL_Creatures.png-de1c9c0ba49188a42190313d31708b5f.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/TL_Creatures.png-de1c9c0ba49188a42190313d31708b5f.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/TL_oldcharacters.png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/TL_oldcharacters.png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/TL_oldcharacters.png-ed1e05e8f98624eb8756a6d0a792ab9f.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/TL_oldcharacters.png-ed1e05e8f98624eb8756a6d0a792ab9f.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/transition.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/transition.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/transition.wav-3115785203eec0dc34eafa8de7e64e6e.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/transition.wav-3115785203eec0dc34eafa8de7e64e6e.sample
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Transitions.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Transitions.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Tropics_entities (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/3 - Tropics/Tropics_entities (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Tropics_entities (16 x 16).png-c62d1567bc2b8139aee6b7adcd2febde.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Tropics_entities (16 x 16).png-c62d1567bc2b8139aee6b7adcd2febde.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/Vendedor.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Vendedor.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/vilao.mp3
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/vilao.mp3.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/vilao.mp3-3baed5fec7627abdcf2a6bf298985ab7.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/vilao.mp3-3baed5fec7627abdcf2a6bf298985ab7.mp3str
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/Vídeo sem título.mp3
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/Vídeo sem título.mp3.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Vídeo sem título.mp3-ce255f27b57b5fc01ee60da653a40ef4.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Vídeo sem título.mp3-ce255f27b57b5fc01ee60da653a40ef4.mp3str
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/Vídeo-sem-título-_2_.mp3
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/Vídeo-sem-título-_2_.mp3.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Vídeo-sem-título-_2_.mp3-c35d65916933aadb320bf26091ae6eb5.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Vídeo-sem-título-_2_.mp3-c35d65916933aadb320bf26091ae6eb5.mp3str
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/WalkingEnemies.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/Water.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Water_frames (16 x 32).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/5 - Misc. universal tiles/Water_frames (16 x 32).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Water_frames (16 x 32).png-8c002ff76160346ae1ee0fcf49377aad.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Water_frames (16 x 32).png-8c002ff76160346ae1ee0fcf49377aad.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Winter_entities (16 x 16).png
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sprites/BG/Seasonal Tilesets/Seasonal Tilesets/4 - Winter World/Winter_entities (16 x 16).png.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Winter_entities (16 x 16).png-62ca0d399fbe645f782658ee8e65fa95.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/Winter_entities (16 x 16).png-62ca0d399fbe645f782658ee8e65fa95.stex
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Scripts/World.gd
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Cenas/World.tscn
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/zerou.wav
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/Sounds/zerou.wav.import
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/zerou.wav-f14b7860f04c4ea5cb77e00e366cd56d.md5
+/Python - 1 Semestre/Fundamentos de SI e ES/A Lenda do Rei/.import/zerou.wav-f14b7860f04c4ea5cb77e00e366cd56d.sample

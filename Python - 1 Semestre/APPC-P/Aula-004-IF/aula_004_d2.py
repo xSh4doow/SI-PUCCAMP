@@ -159,7 +159,7 @@ DIGITE O NÚMERO:\n'''))
                 if l_ext[0] == 'Um':
                     cent = 'Cento'
                     if l_ext[1] == 'Zero' and l_ext[2] == 'Zero':
-                        retorno = 'Cento'
+                        retorno = 'Cem'
                     elif l_ext[1] != 'Zero':
                         retorno = dezena_centena(cent)
                     elif l_ext[1] == 'Zero':
