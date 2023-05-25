@@ -1,0 +1,156 @@
+# Pedro Beresford Rocha - 23015967
+# O tema que eu escolhi é: Profissão/Habilidades
+# O dataset abaixo segue essa sequência:
+# {"Profissão": "NOME", "Habilidades": {Habilidade: Peso, ...}}
+# As Habilidades São:
+# LÓGICA
+# PROGRAMAÇÃO
+# INGLÊS
+# TRABALHO EM EQUIPE
+# CRIATIVIDADE
+# MATEMÁTICA
+# GESTÃO DE PROJETOS
+# DESENHO TÉCNICO
+# BIOLOGIA
+# EMPATIA
+# RESILIÊNCIA
+# COMUNICAÇÃO
+# LIDERANÇA
+# ANATOMIA
+# VISÃO ARTÍSTICA
+# MARKETING
+# ARGUMENTAÇÃO
+# DIREITO
+# NEGOCIAÇÃO
+# ANÁLISE DE DADOS
+# PESQUISA
+# GESTÃO FINANCEIRA
+# NUTRIÇÃO
+# EDUCAÇÃO
+# PSICOLOGIA
+# ESCRITA
+# CULINÁRIA
+# GESTÃO DE EQUIPE
+# PRIMEIROS SOCORROS
+# NAVEGAÇÃO
+# COORDENAÇÃO MOTORA
+# AGRICULTURA
+# GESTÃO DE NEGÓCIOS
+# MECANIZAÇÃO AGRÍCOLA
+# ELETRÔNICA
+# ORGANIZAÇÃO
+# GESTÃO DE TEMPO
+# INFORMÁTICA
+# FÍSICA
+# DESIGN
+
+dataset = [
+    {
+        "PROFISSÃO": "DESENVOLVEDOR DE SOFTWARE",
+        "HABILIDADES": {"LÓGICA": 9, "PROGRAMAÇÃO": 10, "INGLÊS": 8, "TRABALHO EM EQUIPE": 7, "CRIATIVIDADE": 6}
+    },
+    {
+        "PROFISSÃO": "ENGENHEIRO CIVIL",
+        "HABILIDADES": {"MATEMÁTICA": 9, "GESTÃO DE PROJETOS": 8, "DESENHO TÉCNICO": 10, "INGLÊS": 7, "TRABALHO EM EQUIPE": 7}
+    },
+    {
+        "PROFISSÃO": "MÉDICO",
+        "HABILIDADES": {"BIOLOGIA": 10, "INGLÊS": 8, "EMPATIA": 7, "RESILIÊNCIA": 9, "COMUNICAÇÃO": 8}
+    },
+    {
+        "PROFISSÃO": "PROFESSOR",
+        "HABILIDADES": {"COMUNICAÇÃO": 10, "EMPATIA": 9, "INGLÊS": 7, "CRIATIVIDADE": 8, "LIDERANÇA": 6}
+    },
+    {
+        "PROFISSÃO": "DESENVOLVEDOR DE SOFTWARE",
+        "HABILIDADES": {"LÓGICA": 9, "PROGRAMAÇÃO": 10, "INGLÊS": 8, "TRABALHO EM EQUIPE": 7, "CRIATIVIDADE": 6}
+    },
+    {
+        "PROFISSÃO": "ENGENHEIRO CIVIL",
+        "HABILIDADES": {"MATEMÁTICA": 9, "GESTÃO DE PROJETOS": 8, "DESENHO TÉCNICO": 10, "INGLÊS": 7, "TRABALHO EM EQUIPE": 7}
+    },
+    {
+        "PROFISSÃO": "MÉDICO",
+        "HABILIDADES": {"BIOLOGIA": 9, "INGLÊS": 8, "EMPATIA": 7, "RESILIÊNCIA": 9, "COMUNICAÇÃO": 8}
+    },
+    {
+        "PROFISSÃO": "PROFESSOR",
+        "HABILIDADES": {"COMUNICAÇÃO": 10, "EMPATIA": 9, "INGLÊS": 7, "CRIATIVIDADE": 8, "LIDERANÇA": 6}
+    },
+    {
+        "PROFISSÃO": "FISIOTERAPEUTA",
+        "HABILIDADES": {"ANATOMIA": 8, "EMPATIA": 9, "RESILIÊNCIA": 8, "COMUNICAÇÃO": 7, "INGLÊS": 6}
+    },
+    {
+        "PROFISSÃO": "FOTÓGRAFO",
+        "HABILIDADES": {"CRIATIVIDADE": 9, "VISÃO ARTÍSTICA": 10, "COMUNICAÇÃO": 6, "MARKETING": 7, "INGLÊS": 6}
+    },
+    {
+        "PROFISSÃO": "ADVOGADO",
+        "HABILIDADES": {"ARGUMENTAÇÃO": 9, "DIREITO": 10, "COMUNICAÇÃO": 8, "INGLÊS": 7, "NEGOCIAÇÃO": 8}
+    },
+    {
+        "PROFISSÃO": "BIOLOGISTA",
+        "HABILIDADES": {"BIOLOGIA": 10, "INGLÊS": 8, "ANÁLISE DE DADOS": 7, "COMUNICAÇÃO": 6, "PESQUISA": 9}
+    },
+    {
+        "PROFISSÃO": "CONTADOR",
+        "HABILIDADES": {"MATEMÁTICA": 9, "GESTÃO FINANCEIRA": 10, "INGLÊS": 7, "COMUNICAÇÃO": 7, "ANÁLISE DE DADOS": 8}
+    },
+    {
+        "PROFISSÃO": "NUTRICIONISTA",
+        "HABILIDADES": {"NUTRIÇÃO": 10, "EMPATIA": 8, "COMUNICAÇÃO": 7, "INGLÊS": 7, "EDUCAÇÃO": 8}
+    },
+    {
+        "PROFISSÃO": "PSICÓLOGO",
+        "HABILIDADES": {"EMPATIA": 10, "PSICOLOGIA": 10, "COMUNICAÇÃO": 8, "INGLÊS": 7, "RESILIÊNCIA": 9}
+    },
+    {
+        "PROFISSÃO": "JORNALISTA",
+        "HABILIDADES": {"COMUNICAÇÃO": 10, "ESCRITA": 10, "INGLÊS": 8, "CRIATIVIDADE": 9, "PESQUISA": 8}
+    },
+    {
+        "PROFISSÃO": "CHEFE DE COZINHA",
+        "HABILIDADES": {"CULINÁRIA": 10, "LIDERANÇA": 8, "CRIATIVIDADE": 9, "GESTÃO DE EQUIPE": 7, "INGLÊS": 6}
+    },
+    {
+        "PROFISSÃO": "ARQUITETO",
+        "HABILIDADES": {"DESENHO TÉCNICO": 9, "CRIATIVIDADE": 9, "MATEMÁTICA": 8, "INGLÊS": 7, "GESTÃO DE PROJETOS": 8}
+    },
+    {
+        "PROFISSÃO": "DESIGNER GRÁFICO",
+        "HABILIDADES": {"DESIGN": 10, "CRIATIVIDADE": 9, "COMUNICAÇÃO": 7, "MARKETING": 8, "INGLÊS": 7}
+    },
+    {
+        "PROFISSÃO": "SOCORRISTA",
+        "HABILIDADES": {"PRIMEIROS SOCORROS": 10, "RESILIÊNCIA": 9, "COMUNICAÇÃO": 8, "EMPATIA": 8, "INGLÊS": 7}
+    },
+    {
+        "PROFISSÃO": "PILOTO DE AVIÃO",
+        "HABILIDADES": {"NAVEGAÇÃO": 10, "INGLÊS": 10, "RESILIÊNCIA": 8, "COMUNICAÇÃO": 7, "COORDENAÇÃO MOTORA": 9}
+    },
+    {
+        "PROFISSÃO": "AGRICULTOR",
+        "HABILIDADES": {"AGRICULTURA": 10, "GESTÃO DE NEGÓCIOS": 8, "RESILIÊNCIA": 9, "MECANIZAÇÃO AGRÍCOLA": 8, "BIOLOGIA": 7}
+    },
+    {
+        "PROFISSÃO": "ELETRICISTA",
+        "HABILIDADES": {"ELETRÔNICA": 10, "RESILIÊNCIA": 8, "MATEMÁTICA": 7, "COMUNICAÇÃO": 6, "INGLÊS": 6}
+    },
+    {
+        "PROFISSÃO": "AUXILIAR ADMINISTRATIVO",
+        "HABILIDADES": {"ORGANIZAÇÃO": 9, "COMUNICAÇÃO": 8, "GESTÃO DE TEMPO": 8, "INGLÊS": 7, "INFORMÁTICA": 7}
+    },
+    {
+        "PROFISSÃO": "ENFERMEIRO",
+        "HABILIDADES": {"EMPATIA": 9, "BIOLOGIA": 8, "COMUNICAÇÃO": 8, "RESILIÊNCIA": 9, "INGLÊS": 7}
+    },
+    {
+        "PROFISSÃO": "MARINHEIRO",
+        "HABILIDADES": {"NAVEGAÇÃO": 10, "RESILIÊNCIA": 8, "COMUNICAÇÃO": 7, "INGLÊS": 8, "TRABALHO EM EQUIPE": 8}
+    },
+    {
+        "PROFISSÃO": "BOMBEIRO",
+        "HABILIDADES": {"RESILIÊNCIA": 10, "COMUNICAÇÃO": 8, "PRIMEIROS SOCORROS": 9, "TRABALHO EM EQUIPE": 8, "FÍSICA": 8}
+    }
+]
