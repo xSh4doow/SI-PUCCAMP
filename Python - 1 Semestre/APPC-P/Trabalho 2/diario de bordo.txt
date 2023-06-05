@@ -9,4 +9,6 @@ Todo o desenvolvimento será publicado no meu repositório público do GitHub: h
 
 Dia 24/05 - Criação do Dataset.
 Dia 25/05 - Envio da Fase 1, Início do código base.
+Dia 26/05 - Continuação do Código Base.
+Dia 05/06 - Finalização do Código Vase
 

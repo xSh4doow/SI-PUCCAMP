@@ -55,22 +55,6 @@ dataset = [
     },
     {
         "PROFISSÃO": "MÉDICO",
-        "HABILIDADES": {"BIOLOGIA": 10, "INGLÊS": 8, "EMPATIA": 7, "RESILIÊNCIA": 9, "COMUNICAÇÃO": 8}
-    },
-    {
-        "PROFISSÃO": "PROFESSOR",
-        "HABILIDADES": {"COMUNICAÇÃO": 10, "EMPATIA": 9, "INGLÊS": 7, "CRIATIVIDADE": 8, "LIDERANÇA": 6}
-    },
-    {
-        "PROFISSÃO": "DESENVOLVEDOR DE SOFTWARE",
-        "HABILIDADES": {"LÓGICA": 9, "PROGRAMAÇÃO": 10, "INGLÊS": 8, "TRABALHO EM EQUIPE": 7, "CRIATIVIDADE": 6}
-    },
-    {
-        "PROFISSÃO": "ENGENHEIRO CIVIL",
-        "HABILIDADES": {"MATEMÁTICA": 9, "GESTÃO DE PROJETOS": 8, "DESENHO TÉCNICO": 10, "INGLÊS": 7, "TRABALHO EM EQUIPE": 7}
-    },
-    {
-        "PROFISSÃO": "MÉDICO",
         "HABILIDADES": {"BIOLOGIA": 9, "INGLÊS": 8, "EMPATIA": 7, "RESILIÊNCIA": 9, "COMUNICAÇÃO": 8}
     },
     {

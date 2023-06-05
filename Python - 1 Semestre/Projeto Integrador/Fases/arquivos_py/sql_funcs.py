@@ -1,4 +1,4 @@
-# Teste da Fase 3 do Projeto Integrador (T E S T  E !)
+#Fase 3 do Projeto Integrador
 import time
 import pymysql as psql
 
