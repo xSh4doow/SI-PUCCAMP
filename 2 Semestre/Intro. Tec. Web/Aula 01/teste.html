@@ -1,10 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        #search-container {
+            text-align: center;
+            margin-top: 20vh;
+        }
+
+        #logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        #search-input {
+            width: 400px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #search-button {
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
-$END$
+<div id="search-container">
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_92x30dp.png" alt="Google Logo" id="logo">
+    <form action="https://www.google.com/search" method="GET">
+        <input type="text" name="q" id="search-input" placeholder="Search Google...">
+        <input type="submit" value="Google Search" id="search-button">
+    </form>
+</div>
 </body>
 </html>
