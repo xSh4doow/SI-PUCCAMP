@@ -3,7 +3,7 @@ Diário de Bordo - Projeto 2 - APPC-P
 Nome: Pedro Beresford Rocha
 RA: 23015967
 
-Todo o desenvolvimento será publicado no meu repositório público do GitHub: https://github.com/xSh4doow/SI-PUCCAMP/tree/main/Python%20-%201%20Semestre/APPC-P/Trabalho%202
+Todo o desenvolvimento será publicado no meu repositório público do GitHub: https://github.com/xSh4doow/SI-PUCCAMP
 
 -----------------------------------
 
