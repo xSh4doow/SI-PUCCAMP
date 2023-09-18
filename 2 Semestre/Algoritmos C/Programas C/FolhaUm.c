@@ -447,10 +447,16 @@ int main()
         case 1:
         {
             temperaturas();
+            return 0;
         }
         case 2:
         {
             calculos();
+            return 0;
+        }
+        default:
+        {
+            printf("Você inseriu uma opção inválida, tente novamente!");
         }
     }
 

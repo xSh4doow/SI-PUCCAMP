@@ -4,131 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13fd3d90-07b7-4501-826b-e10e4b65a740" name="Changes" comment="Nono Commit - Banco de Dados">
+    <list default="true" id="427f6f0d-cfb8-4f91-b00f-a5e77cc78c79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../2 Semestre/Algoritmos C/Programas C/ExercicioTriangulo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2 Semestre/Algoritmos C/Programas C/ExercicioX.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2 Semestre/Algoritmos C/Programas C/FolhaExs.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2 Semestre/Algoritmos C/Programas C/PetShop.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2 Semestre/Intro. Tec. Web/Exercicios JS/Lista1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python - 1 Semestre.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 Semestre/Algoritmos C/Programas C/FolhaUm.c" beforeDir="false" afterPath="$PROJECT_DIR$/../2 Semestre/Algoritmos C/Programas C/FolhaUm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 Semestre/Algoritmos C/Programas C/FolhaUm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../2 Semestre/Algoritmos C/Programas C/FolhaUm.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 Semestre/Estudo de Banco de Dados/Aula 01/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../2 Semestre/Estudo de Banco de Dados/Aula 01/identifier.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2 Semestre/Intro. Tec. Web/Aula 01/EstruturaBasica.html" beforeDir="false" afterPath="$PROJECT_DIR$/../2 Semestre/Intro. Tec. Web/Aula 01/EstruturaBasica.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2MYvyJ7VoIbXDJhi2wXN14yfz6q" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2VS9tQDLB59WAG7gHLSNaThZuKZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/xsh4d/Downloads/pyqt5_plugins-5.15.4.2.2-py3-none-win_amd64/pyqt5_plugins-5.15.4.2.2-py3-none-win_amd64.whl&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
-  <component name="RunManager" selected="Python.proj_int_f1">
-    <configuration name="criarconta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python - 1 Semestre" />
+}]]></component>
+  <component name="RunManager">
+    <configuration name="pdfReader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="1 Semestre" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coisas em Python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)/criarconta.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python - 1 Semestre" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)/login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="m_i" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python - 1 Semestre" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projeto Integrador/Fases/arquivos_py" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projeto Integrador/Fases/arquivos_py/m_i.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="menuini" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python - 1 Semestre" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projeto Integrador/Fases/Ui(s)/menuini.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="proj_int_f1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python - 1 Semestre" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projeto Integrador/Fases/arquivos_py" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Projeto Integrador/Fases/arquivos_py/proj_int_f1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coisas em Python/pdfReader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,86 +74,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.proj_int_f1" />
-        <item itemvalue="Python.m_i" />
-        <item itemvalue="Python.criarconta" />
-        <item itemvalue="Python.login" />
-        <item itemvalue="Python.menuini" />
+        <item itemvalue="Python.pdfReader" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13fd3d90-07b7-4501-826b-e10e4b65a740" name="Changes" comment="" />
-      <created>1677957582951</created>
+      <changelist id="427f6f0d-cfb8-4f91-b00f-a5e77cc78c79" name="Changes" comment="" />
+      <created>1694818828691</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1677957582951</updated>
+      <updated>1694818828691</updated>
     </task>
-    <task id="LOCAL-00001" summary="Terceiro Commit - Adicionando Try/Except's nos arquivos: 003-IO e exs-sequência">
-      <created>1678421398584</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1678421398584</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Quarto Commit - Adicionando Projeto Integrador (XLSX e POD)">
-      <created>1679098948380</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679098948380</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Quinto Commit - Finalizando Tarefa APPC-P, Salvando Arquivos de Projeto Integrador e Arrumando as Pastas">
-      <created>1679169446763</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1679169446763</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Sexto Commit - Brincando com Python Gráfico">
-      <created>1679343364551</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1679343364551</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Oitavo Commit - Brincando com Python Gráfico #3">
-      <created>1679703743533</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1679703743533</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Nono Commit - Banco de Dados">
-      <created>1680037876659</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1680037876659</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Terceiro Commit - Adicionando Try/Except's nos arquivos: 003-IO e exs-sequência" />
-    <MESSAGE value="Quarto Commit - Adicionando Projeto Integrador (XLSX e POD)" />
-    <MESSAGE value="Quinto Commit - Finalizando Tarefa APPC-P, Salvando Arquivos de Projeto Integrador e Arrumando as Pastas" />
-    <MESSAGE value="Sexto Commit - Brincando com Python Gráfico" />
-    <MESSAGE value="Oitavo Commit - Brincando com Python Gráfico #3" />
-    <MESSAGE value="Nono Commit - Banco de Dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nono Commit - Banco de Dados" />
   </component>
 </project>
