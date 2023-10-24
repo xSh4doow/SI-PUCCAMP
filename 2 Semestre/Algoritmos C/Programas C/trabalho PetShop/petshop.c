@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define file "arquivo.dat"
 
 typedef struct
 {
@@ -191,7 +192,7 @@ void atualizar_pet(FILE* arq) {
             getc(stdin);
             atualizou=1/*verdadeiro*/;
         }
-        } while (subopcao != 6);
+    } while (subopcao != 6);
 
     if (atualizou) {
         fseek(arq, -sizeof(Pet), SEEK_CUR);
@@ -222,15 +223,15 @@ void excluir_pet(FILE* arq) {
     fclose(tempFile);
 
     if (excluido) {
-        remove("aaaa.dat"); // Remove o arquivo original
-        rename("temp.dat", "aaaa.dat"); // Renomeia o arquivo temporário para o original
+        remove(file); // Remove o arquivo original
+        rename("temp.dat", file); // Renomeia o arquivo temporário para o original
         printf("Pet excluído com sucesso!\n\n");
     } else {
         remove("temp.dat"); // Se não foi excluído, remove o arquivo temporário
         printf("Não existe pet cadastrado com este ID!\n\n");
     }
 
-    arq = fopen("aaaa.dat", "rb+"); // Abre o arquivo original novamente
+    arq = fopen(file, "rb+"); // Abre o arquivo original novamente
 }
 
 int main()
@@ -244,18 +245,18 @@ int main()
     do
     {
         printf("Digite a localizacao do arquivo: ");
-        //fgets (localizacaoDoArquivo,1024,stdin);
+        fgets (localizacaoDoArquivo,1024,stdin);
 
-        arquivo=fopen("aaaa.dat","rb+");
+        arquivo=fopen(localizacaoDoArquivo,"rb+");
         if (arquivo==NULL) // nao deu certo para abrir o arquivo para usar
         {
-            arquivo=fopen("aaaa.dat","wb+");
+            arquivo=fopen(localizacaoDoArquivo,"wb+");
             if (arquivo==NULL) // nao deu certo para criar o arquivo
                 printf("Foi impossível abrir o arquivo indicado! Tente novamente...\n");
             else
             {
                 fclose(arquivo);
-                arquivo=fopen("aaaa.dat","rb+");
+                arquivo=fopen(localizacaoDoArquivo,"rb+");
             }
         }
     }
@@ -292,7 +293,8 @@ int main()
 
             case 4:
                 excluir_pet(arquivo);
-                arquivo=fopen("aaaa.dat","rb+");
+                arquivo=fopen(file,"rb+");
+                break;
         }
     }
     while (opcao!=5);
