@@ -1,0 +1,4 @@
+# Banco de Dados:
+HOST: us-cdbr-east-06.cleardb.net
+USERNAME: b6340d84628fe2
+PASSWORD: 993dd2ea
