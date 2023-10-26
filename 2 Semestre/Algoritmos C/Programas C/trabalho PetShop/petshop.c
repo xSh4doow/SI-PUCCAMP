@@ -201,7 +201,7 @@ void atualizar_pet(FILE* arq) {
     }
 }
 
-void excluir_pet(FILE* arq) {
+void excluir_pet(FILE* arq, char loc [1025]) {
     unsigned int id = numero_natural_digitado("ID do pet a ser excluído: ", "O ID deve ser 1 ou 2 ou 3 ou etc; tente novamente!\n", 4294967295);
     Pet p;
     FILE* tempFile = fopen("temp.dat", "wb"); // Arquivo temporário para escrever pets não excluídos
@@ -223,8 +223,8 @@ void excluir_pet(FILE* arq) {
     fclose(tempFile);
 
     if (excluido) {
-        remove(file); // Remove o arquivo original
-        rename("temp.dat", file); // Renomeia o arquivo temporário para o original
+        remove(loc); // Remove o arquivo original
+        rename("temp.dat", loc); // Renomeia o arquivo temporário para o original
         printf("Pet excluído com sucesso!\n\n");
     } else {
         remove("temp.dat"); // Se não foi excluído, remove o arquivo temporário
@@ -244,9 +244,9 @@ int main()
 
     do
     {
-        printf("Digite a localizacao do arquivo: ");
-        fgets (localizacaoDoArquivo,1024,stdin);
-
+        printf("Digite a loc do arquivo: ");
+        fgets(localizacaoDoArquivo, 1024, stdin);
+        localizacaoDoArquivo[strlen(localizacaoDoArquivo)-1]='\0';
         arquivo=fopen(localizacaoDoArquivo,"rb+");
         if (arquivo==NULL) // nao deu certo para abrir o arquivo para usar
         {
@@ -292,8 +292,8 @@ int main()
                 break;
 
             case 4:
-                excluir_pet(arquivo);
-                arquivo=fopen(file,"rb+");
+                excluir_pet(arquivo, localizacaoDoArquivo);
+                arquivo=fopen(localizacaoDoArquivo,"rb+");
                 break;
         }
     }

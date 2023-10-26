@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script type="module" src="/js/iniciar.js"></script>
-    <script type="module" src="/js/funcs.js"></script>
+    <script type="module" src="/scripts/iniciar.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página do Usuário</title>
     <link type="text/css" rel="stylesheet" href="/css/iniciar.css">
@@ -15,6 +14,7 @@
                 <h1>PostoPUC</h1>
                 <a href="usuario.html"><img class="botaoHomePage" src="/media/botao-de-inicio.png" alt="botaoInicio"></a>
             </nav>
+
             <div class="container2">
                 <div class="cartao">
                     <h1>Cartão</h1>
@@ -33,61 +33,20 @@
                     <button class="btn2" id="comprar-btn">Comprar</button>
                     <div id="show3" class="comprar-produtos">
                         <h2>Selecione seus Produtos</h2>
-                        <label>Cartão: <input placeholder="Digite o N° do Cartão" type="number" name="" id=""></label>
-                        <ul>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/li-gas.png" alt=""> Gasolina</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/li-oil.png" alt=""> Óleo Motor</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/li-oil.png" alt=""> Óleo Cãmbio</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/li-oil.png" alt=""> Adtivos Radiador</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/li-carwashing.png" alt=""> Lavagem</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/li-carwashing.png" alt=""> Calibrar Pneu</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/li-carwashing.png" alt=""> Polimento</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/li-filter.png" alt=""> Filtro de Ar</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/li-filter.png" alt=""> Filtro de Óleo</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/li-filter.png" alt=""> Filtro de Combustível</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/li-battery.png" alt=""> Baterias</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/teste45.png" alt=""> Kit Óleo</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/teste45.png" alt=""> Kit Filtro</li>
-                            <li><label>
-                                <input type="checkbox">
-                            </label> <img class="li-img" src="/media/teste45.png" alt=""> Kit Lavagem</li>
+                        <label>Cartão: <input placeholder="Digite o N° do Cartão" type="number" name="" id="cartaoNumero"></label>
+                        <ul id="produtos-list">
                         </ul>
                         <button class="btn2" id="comprar-btn2">Comprar</button>
                     </div>
                 </div>
 
                 <div class="relatorios">
-                    <h1>Relatórios</h1>
-                    <img id="hidden3" src="/media/RelatorioImage.png" alt="relatorios">
-                    <button class="btn2" id="relatorios-btn">Gerar</button>
+                <h1>Relatórios</h1>
+                <img id="hidden3" src="/media/RelatorioImage.png" alt="relatorios">
+                <button class="btn2" id="relatorios-btn">Gerar</button>
                 </div>
             </div>
+
         </div>
     </div>
 </body>
