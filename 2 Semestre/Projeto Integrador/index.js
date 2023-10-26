@@ -24,13 +24,12 @@ app.get('/gerar-cartao', async (req, res) => {
 app.post('/comprar', (req, res) => {
     const produtosSelecionados = req.body.produtos;
 
-    // Faça o processamento da compra aqui (por exemplo, salvar no banco de dados)
-    // Dependendo do seu aplicativo, você pode precisar de um módulo de banco de dados para isso.
-
-    // Simule uma resposta de sucesso (você deve personalizar isso)
-    const compraBemSucedida = true;
-
-    res.json({ success: compraBemSucedida });
+    if (produtosSelecionados.length > 0) {
+        // Funcao comprar
+        res.json({ success: true, message: "Compra realizada com sucesso!" });
+    } else {
+        res.json({ success: false, message: "Erro na compra. Nenhum produto selecionado." });
+    }
 });
 
 app.listen(8081, function (){

@@ -45,6 +45,7 @@ function criarListaProdutos() {
 
         checkbox.type = "checkbox";
         checkbox.value = produto.nome;
+        checkbox.className = "checkbox-grande";
 
         img.className = "li-img";
         img.src = produto.imagem;

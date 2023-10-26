@@ -1,14 +1,21 @@
 // Informações para Login no Banco
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize("heroku_44f6983cc34c2f8", "b6340d84628fe2", "993dd2ea", {
+const db = new Sequelize("heroku_44f6983cc34c2f8", "b6340d84628fe2", "993dd2ea", {
     host: "us-cdbr-east-06.cleardb.net",
     dialect: "mysql"
 })
 
-const Cartoes = sequelize.define('cartoes',
-    {
-        id:
-            {
+// Testando Conexão com o Banco
+db.authenticate().then(function () {
+    console.log("Conectado!");
+}).catch(function (erro) {
+    console.log(erro);
+});
+
+// Entidades
+/*
+const Cartoes = db.define('cartoes', {
+        id: {
                 type: Sequelize.INTEGER,
                 primaryKey: true,
                 autoIncrement: false
@@ -16,22 +23,54 @@ const Cartoes = sequelize.define('cartoes',
     },
     {
         updatedAt: false
-    }
-);
+});
 
-const Compras = sequelize.define({});
+const Produtos = db.define('produtos', {
+    idProduto: {
+        type: Sequelize.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+    },
+    nomeProduto: {
+        type: Sequelize.STRING(255),
+    },
+}, {
+    timestamps: false
+});
 
-async function autenticar()
-{
-// Testando Conexão com o Banco
-    sequelize.authenticate().then(function () {
-        console.log("Conectado!");
-    }).catch(function (erro) {
-        console.log(erro);
-    });
-}
+const Compras = db.define('Compras', {
+    idCompra: {
+        type: Sequelize.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+    },
+    idCartao: {
+        type: Sequelize.INTEGER,
+    },
+    dataCompra: {
+        type: Sequelize.DATE,
+    },
+});
 
-// Gerando um cartão //
+Compras.belongsTo(Cartao, { foreignKey: 'idCartao' });
+
+const conteudoCompra = sequelize.define('conteudoCompra', {
+    updatedAt: {
+        type: DataTypes.DATE,
+        defaultValue: sequelize.literal('CURRENT_TIMESTAMP'),
+    },
+    usou: {
+        type: DataTypes.BOOLEAN,
+    },
+});
+
+conteudoCompra.belongsTo(Compras, { foreignKey: 'idCompra' });
+conteudoCompra.belongsTo(Produtos, { foreignKey: 'idProduto' });
+*/ Arrumar
+
+
+// Criar entidades se não existem
+Cartoes.sync();
 
 // Gerando o Código do Cartão
 function gerarNumeroDeSeisDigitos() {
@@ -54,14 +93,13 @@ async function verificarCodigo(codigo)
 }
 
 // Adiciona no Banco
-
 async function addNoBanco() {
     while (true) {
         let codigo = gerarNumeroDeSeisDigitos();
 
         if (await verificarCodigo(codigo) === 0) {
             console.log("O código não existe, adicionando no banco", codigo);
-            Cartoes.create({ id: codigo });
+            await Cartoes.create({id: codigo});
             return parseInt(codigo, 10);
         } else {
             console.log("O código existe, não adicionando no banco", codigo);
@@ -69,5 +107,6 @@ async function addNoBanco() {
     }
 }
 
+// Adicionar as compras no Banco
 
 module.exports = addNoBanco;

@@ -299,17 +299,17 @@ nav .logo{
 }
 
 .li-img{
-    width: 25px !important;
-    height: 25px !important;
-    margin: 0 !important;
+    width: 50px !important;
+    height: 50px !important;
+    margin: 2px !important;
     display: inline-block !important;
 
 }
 
 .comprar-produtos ul{
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4;
 }
 
 .comprar-produtos button{
@@ -317,6 +317,10 @@ nav .logo{
     justify-content: center !important;
     display: flex !important;
     position: relative !important;
-    left: 660px !important;
+    left: 780px !important;
     margin-top: 100px;
+}
+
+.checkbox-grande {
+    transform: scale(1.5);
 }
