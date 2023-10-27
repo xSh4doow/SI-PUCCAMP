@@ -8,6 +8,7 @@ const cartaoBtn = document.getElementById("cartao-btn");
 const comprarBtn = document.getElementById("comprar-btn");
 const relatoriosBtn = document.getElementById("relatorios-btn");
 const btnCartao = document.getElementById("show2");
+const btnComprar = document.getElementById("comprar-btn2");
 
 const imagemParaSumir1 = document.getElementById("hidden1");
 const imagemParaSumir2 = document.getElementById("hidden2");
@@ -85,7 +86,8 @@ document.addEventListener("DOMContentLoaded", function() {
       imagemParaAparecer3.style.display = "initial";
       criarListaProdutos();
     });
-  
+
+    /*
     relatoriosBtn.addEventListener("click", function() {
       cartaoDiv.style.display = "none";
       comprarDiv.style.display = "none";
@@ -94,6 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
       relatoriosBtn.style.display = "none";
       imagemParaSumir3.style.display = "none";
     });
+     */
   });
 function gerarCartao () {
     fetch('http://localhost:8081/gerar-cartao')
@@ -114,9 +117,12 @@ function gerarCartao () {
             swal("Erro", "Ocorreu um erro ao obter a informação do servidor.", "error");
         });
 }
+
 function comprarProdutos() {
     const produtosSelecionados = [];
     const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+    const Card = document.getElementById("cartaoNumero");
+    const valCard = Card.value;
 
     checkboxes.forEach((checkbox) => {
         produtosSelecionados.push(checkbox.value);
@@ -127,11 +133,11 @@ function comprarProdutos() {
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ produtos: produtosSelecionados }),
+        body: JSON.stringify({ produtos: produtosSelecionados, cartao: valCard }),
     })
         .then((response) => response.json())
         .then((data) => {
-            if (data.success) {
+            if (data.success === true) {
                 swal("Compra realizada com sucesso!", "Seus itens foram adicionados ao seu cartão!", "success");
             } else {
                 swal("Erro", "Erro na compra. Tente novamente.", "error");
@@ -144,5 +150,9 @@ function comprarProdutos() {
 
 btnCartao.addEventListener("click", function () {
     gerarCartao();
+});
+
+btnComprar.addEventListener("click", function () {
+    comprarProdutos();
 });
 

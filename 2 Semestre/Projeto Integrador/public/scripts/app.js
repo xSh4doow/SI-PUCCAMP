@@ -1,24 +1,20 @@
-// Informações para Login no Banco
 const Sequelize = require("sequelize");
 const db = new Sequelize("heroku_44f6983cc34c2f8", "b6340d84628fe2", "993dd2ea", {
     host: "us-cdbr-east-06.cleardb.net",
     dialect: "mysql"
 })
 
-// Testando Conexão com o Banco
 db.authenticate().then(function () {
     console.log("Conectado!");
 }).catch(function (erro) {
     console.log(erro);
 });
 
-// Entidades
-/*
 const Cartoes = db.define('cartoes', {
-        id: {
-                type: Sequelize.INTEGER,
-                primaryKey: true,
-                autoIncrement: false
+        idCartao: {
+            type: Sequelize.INTEGER,
+            primaryKey: true,
+            autoIncrement: false
             }
     },
     {
@@ -26,7 +22,7 @@ const Cartoes = db.define('cartoes', {
 });
 
 const Produtos = db.define('produtos', {
-    idProduto: {
+    idProdutos: {
         type: Sequelize.INTEGER,
         primaryKey: true,
         autoIncrement: true,
@@ -38,7 +34,7 @@ const Produtos = db.define('produtos', {
     timestamps: false
 });
 
-const Compras = db.define('Compras', {
+const Compras = db.define('compras', {
     idCompra: {
         type: Sequelize.INTEGER,
         primaryKey: true,
@@ -47,44 +43,45 @@ const Compras = db.define('Compras', {
     idCartao: {
         type: Sequelize.INTEGER,
     },
-    dataCompra: {
-        type: Sequelize.DATE,
-    },
+}, {
+    timestamps: false
 });
 
-Compras.belongsTo(Cartao, { foreignKey: 'idCartao' });
+Compras.belongsTo(Cartoes, { foreignKey: 'idCartao' });
 
-const conteudoCompra = sequelize.define('conteudoCompra', {
-    updatedAt: {
-        type: DataTypes.DATE,
-        defaultValue: sequelize.literal('CURRENT_TIMESTAMP'),
+const conteudoCompra = db.define('conteudoCompra', {
+    idCompra: {
+        type: Sequelize.INTEGER,
+    },
+    idProduto: {
+        type: Sequelize.INTEGER,
     },
     usou: {
-        type: DataTypes.BOOLEAN,
+        type: Sequelize.BOOLEAN,
     },
+}, {
+    createdAt: false
 });
 
 conteudoCompra.belongsTo(Compras, { foreignKey: 'idCompra' });
 conteudoCompra.belongsTo(Produtos, { foreignKey: 'idProduto' });
-*/ Arrumar
 
-
-// Criar entidades se não existem
 Cartoes.sync();
+Produtos.sync();
+Compras.sync();
+conteudoCompra.sync();
 
-// Gerando o Código do Cartão
 function gerarNumeroDeSeisDigitos() {
     // Gera um número aleatório entre 100000 e 999999
     return Math.floor(Math.random() * 900000) + 100000;
 }
 
-// Verifica se o Código já existe
 async function verificarCodigo(codigo)
 {
     let {count, rows} = await Cartoes.findAndCountAll(
         {
             where: {
-                id: codigo
+                idCartao: codigo
             }
         }
     );
@@ -92,21 +89,72 @@ async function verificarCodigo(codigo)
     return count // retorna 0 ou 1
 }
 
-// Adiciona no Banco
 async function addNoBanco() {
     while (true) {
         let codigo = gerarNumeroDeSeisDigitos();
 
         if (await verificarCodigo(codigo) === 0) {
             console.log("O código não existe, adicionando no banco", codigo);
-            await Cartoes.create({id: codigo});
+            await Cartoes.create({idCartao: codigo});
             return parseInt(codigo, 10);
         } else {
-            console.log("O código existe, não adicionando no banco", codigo);
+            console.log("O código existe, não adicionando no banco");
         }
     }
 }
 
-// Adicionar as compras no Banco
+async function getIdCompraMaisRecente() {
+    try {
+        const compraMaisRecente = await Compras.findOne({
+            order: [['idCompra', 'DESC']],
+        });
 
-module.exports = addNoBanco;
+        if (compraMaisRecente) {
+            return compraMaisRecente.idCompra;
+        } else {
+            return null;
+        }
+    } catch (error) {
+        console.error('Erro ao obter idCompra mais recente:', error);
+        throw error;
+    }
+}
+
+async function getIdProdutoPorNome(nomeProduto) {
+    try {
+        const produto = await Produtos.findOne({
+            where: {
+                nomeProduto: nomeProduto,
+            },
+        });
+
+        if (produto) {
+            return produto.idProdutos;
+        } else {
+            return null;
+        }
+    } catch (error) {
+        console.error('Erro ao obter idProduto por nomeProduto:', error);
+        throw error;
+    }
+}
+
+async function addCompras(card, itens){
+    if (await verificarCodigo(card) === 1) {
+        console.log("Esse cartão existe");
+        await Compras.create({idCartao: card})
+        let idCompra = await getIdCompraMaisRecente();
+        for (let i = 0; i < itens.length; i++) {
+            let idProduto = await getIdProdutoPorNome(itens[i]);
+            await conteudoCompra.create({idCompra: idCompra, idProduto: idProduto, usou: false})
+            console.log("added", itens[i], idProduto);
+        }
+        console.log(idCompra);
+        return 1
+    } else {
+        console.log("O código não existe");
+        return 0
+    }
+}
+
+module.exports = {addNoBanco, addCompras};

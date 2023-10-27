@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 const path = require("path");
 app.use(express.static(__dirname + '/public'));
-const addNoBanco = require("./public/scripts/app.js");
+const {addNoBanco} = require("./public/scripts/app.js");
+const {addCompras} = require("./public/scripts/app.js");
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
@@ -21,14 +22,21 @@ app.get('/gerar-cartao', async (req, res) => {
     res.json({ informacao });
 });
 
-app.post('/comprar', (req, res) => {
+app.post('/comprar', async (req, res) => {
     const produtosSelecionados = req.body.produtos;
+    const idC = req.body.cartao;
 
-    if (produtosSelecionados.length > 0) {
-        // Funcao comprar
-        res.json({ success: true, message: "Compra realizada com sucesso!" });
+    if (produtosSelecionados.length > 0 && idC > 0) {
+        console.log(parseInt(idC));
+        console.log(produtosSelecionados);
+        let result = await addCompras(idC, produtosSelecionados);
+        if (result === 1) {
+            res.json({success: true, message: "Compra realizada com sucesso!"});
+        } else if (result === 0) {
+            res.json({success: false, message: "Erro na compra. Cartão Inválido."});
+        }
     } else {
-        res.json({ success: false, message: "Erro na compra. Nenhum produto selecionado." });
+        res.json({success: false, message: "Erro na compra. Nenhum produto selecionado."});
     }
 });
 
