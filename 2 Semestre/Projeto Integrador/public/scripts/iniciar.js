@@ -1,4 +1,6 @@
+// Importa a biblioteca de alertas (SweetAlert)
 import swal from 'https://cdn.jsdelivr.net/npm/sweetalert@2.1.2/+esm'
+
 // Criação de Constantes
 const cartaoDiv = document.querySelector(".cartao");
 const comprarDiv = document.querySelector(".comprar");
@@ -17,6 +19,7 @@ const imagemParaSumir3 = document.getElementById("hidden3");
 const imagemParaAparecer1 = document.getElementById("show1");
 const imagemParaAparecer2 = document.getElementById("show2");
 const imagemParaAparecer3 = document.getElementById("show3");
+
 const produtos = [
     { nome: "Gasolina", imagem: "/media/li-gas.png" },
     { nome: "Óleo Motor", imagem: "/media/li-oil.png" },
@@ -34,6 +37,7 @@ const produtos = [
     { nome: "Kit Lavagem", imagem: "/media/teste45.png" }
 ];
 
+// Função para criar a lista de produtos
 function criarListaProdutos() {
     const produtosList = document.getElementById("produtos-list");
 
@@ -64,41 +68,50 @@ function criarListaProdutos() {
 
 document.addEventListener("DOMContentLoaded", function() {
     cartaoBtn.addEventListener("click", function() {
-      cartaoDiv.style.display = "block";
-      comprarDiv.style.display = "none";
-      relatoriosDiv.style.display = "none";
+        // Mostra o conteúdo da aba "Cartão" e oculta as outras
+        cartaoDiv.style.display = "block";
+        comprarDiv.style.display = "none";
+        relatoriosDiv.style.display = "none";
 
-      cartaoBtn.style.display = "none";
-      imagemParaSumir1.style.display = "none";
+        // Esconde o botão "Cartão" e a imagem associada
+        cartaoBtn.style.display = "none";
+        imagemParaSumir1.style.display = "none";
 
-      imagemParaAparecer1.style.display = "flex";
-      imagemParaAparecer2.style.display = "flex";
+        // Mostra as imagens associadas às outras abas
+        imagemParaAparecer1.style.display = "flex";
+        imagemParaAparecer2.style.display = "flex";
     });
 
     comprarBtn.addEventListener("click", function() {
-      cartaoDiv.style.display = "none";
-      comprarDiv.style.display = "block";
-      relatoriosDiv.style.display = "none";
-        
-      comprarBtn.style.display = "none";
-      imagemParaSumir2.style.display = "none";
+        // Mostra o conteúdo da aba "Comprar" e oculta as outras
+        cartaoDiv.style.display = "none";
+        comprarDiv.style.display = "block";
+        relatoriosDiv.style.display = "none";
 
-      imagemParaAparecer3.style.display = "initial";
-      criarListaProdutos();
+        // Esconde o botão "Comprar" e a imagem associada
+        comprarBtn.style.display = "none";
+        imagemParaSumir2.style.display = "none";
+
+        // Mostra a imagem associada à aba "Comprar" e cria a lista de produtos
+        imagemParaAparecer3.style.display = "initial";
+        criarListaProdutos();
     });
-
     /*
     relatoriosBtn.addEventListener("click", function() {
-      cartaoDiv.style.display = "none";
-      comprarDiv.style.display = "none";
-      relatoriosDiv.style.display = "block";
+        // Mostra o conteúdo da aba "Relatórios" e oculta as outras
+        cartaoDiv.style.display = "none";
+        comprarDiv.style.display = "none";
+        relatoriosDiv.style.display = "block";
 
-      relatoriosBtn.style.display = "none";
-      imagemParaSumir3.style.display = "none";
+        // Esconde o botão "Relatórios" e a imagem associada
+        relatoriosBtn.style.display = "none";
+        imagemParaSumir3.style.display = "none";
     });
-     */
-  });
-function gerarCartao () {
+    */
+});
+
+// Função para gerar um cartão
+function gerarCartao() {
     fetch('http://localhost:8081/gerar-cartao')
         .then(response => response.json())
         .then(data => {
@@ -118,6 +131,7 @@ function gerarCartao () {
         });
 }
 
+// Função para comprar produtos
 function comprarProdutos() {
     const produtosSelecionados = [];
     const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
@@ -148,11 +162,12 @@ function comprarProdutos() {
         });
 }
 
+// Adiciona um evento de clique para o botão "Gerar Cartão"
 btnCartao.addEventListener("click", function () {
     gerarCartao();
 });
 
+// Adiciona um evento de clique para o botão "Comprar"
 btnComprar.addEventListener("click", function () {
     comprarProdutos();
 });
-

@@ -2,52 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script type="module" src="/scripts/iniciar.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página do Usuário</title>
+
+    <!-- Importa o arquivo JavaScript usando módulo -->
+    <script type="module" src="/scripts/iniciar.js"></script>
+
+    <!-- Importa o arquivo CSS para estilos -->
     <link type="text/css" rel="stylesheet" href="/css/iniciar.css">
 </head>
 <body>
-    <div class="tela-cliente" id="tela-primaria">
-        <div class="background-2-image">
-            <nav class="home">
-                <h1>PostoPUC</h1>
-                <a href="usuario.html"><img class="botaoHomePage" src="/media/botao-de-inicio.png" alt="botaoInicio"></a>
-            </nav>
+<div class="tela-cliente" id="tela-primaria">
+    <div class="background-2-image">
+        <nav class="home">
+            <h1>PostoPUC</h1>
+            <a href="usuario.html"><img class="botaoHomePage" src="/media/botao-de-inicio.png" alt="botaoInicio"></a>
+        </nav>
 
-            <div class="container2">
-                <div class="cartao">
-                    <h1>Cartão</h1>
-                    <img id="hidden1" src="/media/credit-card.png" alt="credit-card">
-                    <button class="btn2" id="cartao-btn">Cartão</button>
-                    <div class="gerar-cartao">
-                        <img id="show1" src="/media/gerar-cartao1.gif" alt="cartao">
-                        <button id="show2" class="btn2">Gerar Novo Cartão</button>
-                    </div>
-                </div>
-
-
-                <div class="comprar">
-                    <h1>Comprar Produtos</h1>
-                    <img id="hidden2" src="/media/ComprarImage.png" alt="comprar">
-                    <button class="btn2" id="comprar-btn">Comprar</button>
-                    <div id="show3" class="comprar-produtos">
-                        <h2>Selecione seus Produtos</h2>
-                        <label>Cartão: <input placeholder="Digite o N° do Cartão" type="number" name="" id="cartaoNumero"></label>
-                        <ul id="produtos-list">
-                        </ul>
-                        <button class="btn2" id="comprar-btn2">Comprar</button>
-                    </div>
-                </div>
-
-                <div class="relatorios">
-                <h1>Relatórios</h1>
-                <img id="hidden3" src="/media/RelatorioImage.png" alt="relatorios">
-                <button class="btn2" id="relatorios-btn">Gerar</button>
+        <div class="container2">
+            <!-- Seção Cartão -->
+            <div class="cartao">
+                <h1>Cartão</h1>
+                <img id="hidden1" src="/media/credit-card.png" alt="credit-card">
+                <button class="btn2" id="cartao-btn">Cartão</button>
+                <div class="gerar-cartao">
+                    <img id="show1" src="/media/gerar-cartao1.gif" alt="cartao">
+                    <button id="show2" class="btn2">Gerar Novo Cartão</button>
                 </div>
             </div>
 
+            <!-- Seção Comprar Produtos -->
+            <div class="comprar">
+                <h1>Comprar Produtos</h1>
+                <img id="hidden2" src="/media/ComprarImage.png" alt="comprar">
+                <button class="btn2" id="comprar-btn">Comprar</button>
+                <div id="show3" class="comprar-produtos">
+                    <h2>Selecione seus Produtos</h2>
+                    <label>Cartão: <input placeholder="Digite o N° do Cartão" type="number" name="" id="cartaoNumero"></label>
+                    <ul id="produtos-list">
+                    </ul>
+                    <button class="btn2" id="comprar-btn2">Comprar</button>
+                </div>
+            </div>
+
+            <!-- Seção Relatórios -->
+            <div class="relatorios">
+                <h1>Relatórios</h1>
+                <img id="hidden3" src="/media/RelatorioImage.png" alt="relatorios">
+                <button class="btn2" id="relatorios-btn">Gerar</button>
+            </div> -->
         </div>
     </div>
+</div>
 </body>
 </html>

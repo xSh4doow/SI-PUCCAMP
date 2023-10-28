@@ -1,4 +1,5 @@
-*{
+/* Reset de estilos */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +7,13 @@
     overflow: hidden;
 }
 
+/* Estilização da lista não ordenada (ul) */
 ul {
-    list-style-type:none;
+    list-style-type: none;
 }
 
-.principal{
+/* Estilo da seção principal */
+.principal {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3));
@@ -19,10 +22,10 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-nav{
+/* Estilo da barra de navegação */
+nav {
     width: 100%;
     position: absolute;
     top: 0;
@@ -33,16 +36,18 @@ nav{
     justify-content: space-between;
 }
 
-nav .logo{
+/* Estilo do logotipo */
+nav .logo {
     width: 60px;
 }
 
-.secundaria{
+/* Estilo da seção secundária */
+.secundaria {
     text-align: center;
 }
 
-
-.secundaria h1{
+/* Estilo do título principal */
+.secundaria h1 {
     font-size: 160px;
     color: #fff;
     font-weight: 600;
@@ -50,13 +55,13 @@ nav .logo{
     padding-bottom: 10px;
 }
 
-.secundaria h1:hover{
+.secundaria h1:hover {
     -webkit-text-stroke: 2px #fff;
     color: transparent;
 }
 
-
-.secundaria button{
+/* Estilo dos botões */
+.secundaria button {
     text-decoration: none;
     display: inline-block;
     background: none;
@@ -68,16 +73,13 @@ nav .logo{
     text-transform: uppercase;
     transition: color 0.5s linear;
     position: relative;
-
-
 }
 
-.btn1:hover{
+.btn1:hover {
     color: #fff;
-
 }
 
-.btn1::before{
+.btn1::before {
     content: "";
     position: absolute;
     left: 0;
@@ -89,19 +91,18 @@ nav .logo{
     transition: transform 0.4s;
     transform-origin: 0 0;
     transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
-
 }
 
-.btn1::before{
+.btn1::before {
     transform: scaleX(0);
-
 }
-.btn1:hover::before{
+
+.btn1:hover::before {
     transform: scaleX(1);
-
 }
 
-.back-video{
+/* Estilo do vídeo de fundo */
+.back-video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -113,21 +114,16 @@ nav .logo{
     z-index: -1;
 }
 
-/*
-    Tela do Cliente Logo abaixo: 
-*/
-
-/* CARTÃO */
-
-.background-2-image{
+/* Estilo das seções */
+.background-2-image {
     min-height: 100vh;
     background: url('../media/BLURRR.png') no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
-.home{
+/* Estilo da barra de navegação no fundo 2 */
+.home {
     background-color: transparent;
     color: white;
     padding: 10px;
@@ -137,14 +133,15 @@ nav .logo{
     position: relative;
 }
 
-.container2{
+/* Estilo do container 2 */
+.container2 {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     height: calc(100vh - 140px);
-
 }
 
+/* Estilo das seções (Cartão, Comprar e Relatórios) */
 .cartao, .comprar, .relatorios {
     flex: 1;
     margin: 10px;
@@ -154,7 +151,6 @@ nav .logo{
     transition: all 0.8s ease;
     opacity: 1;
     transform: scaleY(1);
-
 }
 
 .cartao .itens, .comprar .itens, .relatorios .itens {
@@ -164,7 +160,8 @@ nav .logo{
     transform: scaleY(1);
 }
 
-.home h1{
+/* Estilo do título no fundo 2 */
+.home h1 {
     font-size: 50px;
     color: #fff;
     font-weight: 600;
@@ -177,7 +174,8 @@ nav .logo{
     top: 20px;
 }
 
-.botaoHomePage{
+/* Estilo do botão para ir à página do usuário no fundo 2 */
+.botaoHomePage {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -187,7 +185,8 @@ nav .logo{
     bottom: 35px;
 }
 
-.container2 h1{
+/* Estilo do título no container 2 */
+.container2 h1 {
     font-size: 50px;
     color: #fff;
     margin-bottom: 200px;
@@ -195,10 +194,9 @@ nav .logo{
     justify-content: center;
     position: relative;
     display: flex;
-
-
 }
 
+/* Estilo das imagens no container 2 */
 .container2 img {
     height: 200px;
     width: 200px;
@@ -212,6 +210,7 @@ nav .logo{
     animation: mover 2s infinite alternate;
 }
 
+/* Estilo dos botões no container 2 */
 .container2 button {
     text-decoration: none;
     display: flex;
@@ -252,8 +251,8 @@ nav .logo{
     color: #fff;
 }
 
-
-.gerar-cartao{
+/* Estilo da seção "Gerar Cartão" */
+.gerar-cartao {
     position: relative;
     align-items: center;
     justify-content: center;
@@ -262,14 +261,14 @@ nav .logo{
     bottom: 100px;
 }
 
-.gerar-cartao img{
+.gerar-cartao img {
     width: 400px;
     height: 400px;
     margin: 0 0 50px;
     display: none;
 }
 
-.gerar-cartao button{
+.gerar-cartao button {
     margin: 0;
     align-items: center;
     justify-content: center;
@@ -277,19 +276,14 @@ nav .logo{
     display: none;
 }
 
-
-/* COMPRAR */
-/* COMPRAR */
-/* COMPRAR */
-/* COMPRAR */
-
-
-.comprar-produtos{
+/* Estilo da seção "Comprar Produtos" */
+.comprar-produtos {
     bottom: 100px !important;
     position: relative;
     display: none;
 }
-.comprar-produtos h2{
+
+.comprar-produtos h2 {
     align-items: center;
     justify-content: center !important;
     display: flex;
@@ -298,21 +292,20 @@ nav .logo{
     color: #fff;
 }
 
-.li-img{
+.li-img {
     width: 50px !important;
     height: 50px !important;
     margin: 2px !important;
     display: inline-block !important;
-
 }
 
-.comprar-produtos ul{
+.comprar-produtos ul {
     columns: 4;
     -webkit-columns: 4;
     -moz-columns: 4;
 }
 
-.comprar-produtos button{
+.comprar-produtos button {
     align-items: center !important;
     justify-content: center !important;
     display: flex !important;
